@@ -417,7 +417,7 @@ p {
 }
 
 .profile-card .image {
-	background-color: var(--background);
+	
 	border-radius: 8px;
 	overflow: hidden;
 }
