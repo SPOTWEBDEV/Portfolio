@@ -445,6 +445,9 @@ p {
 
 .common-button-groups {
 	margin-top: 24px;
+	display:flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
 .common-button-groups .btn {
@@ -689,7 +692,7 @@ p {
 }
 
 .expertise-card {
-	height: 299px;
+	height: fit-content;
 }
 
 .expertise-card .expertise-item {
@@ -703,8 +706,8 @@ p {
 }
 
 .expertise-card .expertise-item .image img {
-	width: 32px;
-	height: 32px;
+	width: 50px;
+	height: 50px;
 }
 
 .expertise-card .expertise-item .text .title {
@@ -1228,7 +1231,13 @@ p {
 .article-publications-item .image:hover img {
 	transform: scale(1.07);
 }
-
+.article-publications-item .image .tags-holder{
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+	display: flex;
+	gap: 10px;
+}
 .article-publications-item .image .tags {
 	background-color: var(--white);
 	font-size: 12px;
@@ -1236,9 +1245,7 @@ p {
 	line-height: 0.9rem;
 	padding: 4px 8px;
 	border-radius: 4px;
-	position: absolute;
-	bottom: 16px;
-	left: 16px;
+	
 	display: inline-block;
 	height: unset;
 }
