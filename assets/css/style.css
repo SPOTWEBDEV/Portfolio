@@ -163,6 +163,7 @@ p {
 /* background shapes start */
 .background-shapes .shape-1 {
 	position: fixed;
+	
 	top: -20%;
 	left: -20%;
 	z-index: -1;

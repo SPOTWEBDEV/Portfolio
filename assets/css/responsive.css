@@ -80,6 +80,9 @@
 @media (max-width:1199.98px) {
   .navbar .navbar-main {
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
     top: 0;
     left: -260px;
     width: 260px;
