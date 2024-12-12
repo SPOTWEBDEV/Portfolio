@@ -462,28 +462,52 @@
 
 
 
+// Function to play an audio file
+function playAudio(audioSrc) {
+  const audio = new Audio(audioSrc);
+  audio.play().catch((err) => {
+      console.error("Audio playback failed:", err);
+      alert("Please tap the button to enable audio playback.");
+  });
+}
 
-      // Function to play an audio file
-      function playAudio(audioSrc) {
-        const audio = new Audio(audioSrc);
-        audio.play();
-      }
+// Function to handle the timing and audio playback
+function setupAudioPlayback() {
+  // Play the first audio immediately after user interaction
+  const firstAudioSrc = '/assets/audios/AUDIO-2024-12-12-22-40-15.aac'; // Replace with your first audio file path
+  playAudio(firstAudioSrc);
 
-      // Function to handle the timing and audio playback
-      function setupAudioPlayback() {
-        // Play the first audio when the page loads
-        const firstAudioSrc = './assets/audios/AUDIO-2024-12-12-22-40-15.aac'; // Replace with your first audio file path
-        playAudio(firstAudioSrc);
+  // Schedule the second audio to play after 3 minutes (180,000 milliseconds)
+  const secondAudioSrc = './assets/audios/AUDIO-2024-12-12-22-40-15.aac'; // Replace with your second audio file path
+  setTimeout(() => {
+      playAudio(secondAudioSrc);
+  }, 180000); // 3 minutes in milliseconds
+}
 
-        // Set a timeout to play the second audio after 3 minutes (180,000 milliseconds)
-        const secondAudioSrc = './assets/audios/AUDIO-2024-12-12-22-40-15.aac'; // Replace with your second audio file path
-        setTimeout(() => {
-          playAudio(secondAudioSrc);
-        }, 180000); // 3 minutes in milliseconds
-      }
+// Add a button for user interaction
+function initializeAudioButton() {
+  const button = document.createElement('button');
+  button.textContent = 'Enable Audio';
+  button.style.position = 'fixed';
+  button.style.bottom = '20px';
+  button.style.right = '20px';
+  button.style.padding = '10px 20px';
+  button.style.border = 'none';
+  button.style.borderRadius = '5px';
+  button.style.backgroundColor = '#007BFF';
+  button.style.color = '#FFFFFF';
+  button.style.fontSize = '16px';
+  button.style.cursor = 'pointer';
+  document.body.appendChild(button);
 
-      // Run the setup function when the page is fully loaded
-      window.onload = setupAudioPlayback;
+  button.addEventListener('click', () => {
+      setupAudioPlayback();
+      button.remove(); // Remove the button after enabling audio
+  });
+}
+
+// Run the setup function after the page loads
+window.onload = initializeAudioButton;
 
 
 
