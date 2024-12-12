@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from marveltheme.com/tf/html/bentofolio-html/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Dec 2024 12:45:13 GMT -->
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Bentofolio - Bootstrap Personal Portfolio Template</title>
-  <meta name="description" content="Bentofolio - Bootstrap Personal Portfolio Template">
+  <title>SPOTWEBDEV - Personal Portfolio </title>
+  <meta name="description" content="SPOTWEBDEV -  Personal Portfolio">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
@@ -277,7 +274,7 @@
                 <div class="card-body portfolio-card">
                   <div class="top-info">
                     <div class="text">
-                      <h1 class="main-title">My Recent Articles</h1>
+                      <h1 class="main-title">Recent Event</h1>
                       <p>Get the latest new happening on <span class="text-primary">spotwebdev</span> Hub</p>
                     </div>
                   </div>
@@ -307,7 +304,7 @@
                          <div class="tags-holder">${tags(article.tags)}</div>
                       </div>
                       <div class="text">
-                        <a href="#" class="title">${article.title}</a>
+                        <a href="./blog-details.html?blog=${article.id}" class="title">${article.title}</a>
                         <ul class="list-unstyled">
                           <li>${article.readTime}</li>
                           <li>${article.date}</li>
@@ -325,6 +322,9 @@
                   return `<p href="#" class="tags">${tag}</p>`; // Generate <a> tags for each tag in the array
                 }).join(''); // Join all tags into one string
               }
+
+
+              
             </script>
             
             
@@ -355,7 +355,7 @@
     <footer class="footer-area">
       <div class="container">
         <div class="text text-center">
-          <p>@ BentoFolio 2024, Design By <a href="#">MarvelTheme</a></p>
+          <p>@ SPOTWEBDEV 2021, Design By <a href="#">Firstclass</a></p>
         </div>
       </div>
     </footer>

@@ -11,6 +11,7 @@ export const workExperiences = [
   { date: "2021-2024", company: "Digital Dream", role: "Web Developer Tutor", icon: "assets/img/work/2.png" },
   { date: "2024-2025", company: "DeGoodDev", role: "Software Developer.", icon: "assets/img/work/3.png" },
   { date: "2023-2024", company: "Hux WebDev", role: "IT Student", icon: "assets/img/work/1.jpg" },
+  { date: "2022-Still Now", company: "JayHub", role: "Senior Web Developer", icon: "assets/img/work/4.png" },
 ];
 
 export const awards = [
@@ -56,7 +57,7 @@ export const blogNews = [
     textfromceo: "With the digital world constantly evolving, my focus is on creating websites that aren’t just functional but truly enhance user experience. Web development isn’t just about coding—it's about creating an experience that users will value and engage with.",
     tags: ["Web Development", "Coding"],
     readTime: "12 min read",
-                  date: "Dec 2, 2024"
+    date: "Dec 2, 2024"
   },
 
   {
@@ -69,7 +70,7 @@ export const blogNews = [
     textfromceo: "Investment websites must prioritize security and usability. My goal is to provide platforms that help users navigate complex financial data easily while ensuring their data is protected at all times.",
     tags: ["Investment Websites", "Web Development"],
     readTime: "12 min read",
-                  date: "Dec 2, 2024"
+    date: "Dec 2, 2024"
   },
 
   {
@@ -82,7 +83,7 @@ export const blogNews = [
     textfromceo: "My focus when working on economic websites is on making data not just informative but truly engaging. Interactive elements and data visualization tools are key to helping users understand the information they need.",
     tags: ["Economic Websites", "Data Visualization"],
     readTime: "12 min read",
-                  date: "Dec 2, 2024"
+    date: "Dec 2, 2024"
   },
 
   {
@@ -94,7 +95,7 @@ export const blogNews = [
     textfromceo: "With **SmartEvilIntel**, I’m combining the power of artificial intelligence with the world of finance to offer a tool that makes financial analysis smarter and more accessible. It’s not just about presenting data—it’s about giving users actionable insights to improve their financial decisions.",
     tags: ["SmartEvilIntel", "AI"],
     readTime: "12 min read",
-                  date: "Dec 2, 2024"
+    date: "Dec 2, 2024"
   },
 
   {
@@ -108,5 +109,83 @@ export const blogNews = [
     tags: ["December Offer", "Discount"],
     readTime: "12 min read",
     date: "Dec 2, 2024"
+  }
+];
+
+
+
+export const clientFeedback = [
+  {
+    client: "Framer.com",
+    review: "We've been using Ezea's web development services for over a year now, and his dedication to creating high-quality web applications has exceeded our expectations. His expertise is unmatched, and he's always delivering top-notch results.",
+    name: "Oliver Clain",
+    designation: "Product Designer",
+    websiteLink: "#",
+    rating: 5
+  },
+  {
+    client: "TechyWorks",
+    review: "Ezea helped us revamp our entire website, and the result was amazing. His attention to detail and creativity in designing a user-friendly interface made a huge difference for our brand. Highly recommend!",
+    name: "Sarah Jameson",
+    designation: "Marketing Lead",
+    websiteLink: "#",
+    rating: 5
+  },
+  {
+    client: "GoGreenSolutions",
+    review: "Working with Ezea was an absolute pleasure. He developed a highly responsive and visually appealing web application for our eco-friendly business, and it has significantly improved our online engagement.",
+    name: "Daniel Kline",
+    designation: "Operations Manager",
+    websiteLink: "#",
+    rating: 5
+  },
+  {
+    client: "CreativeMinds",
+    review: "Ezea transformed our online presence with his expert web development skills. From ideation to implementation, his professionalism and skill set were clear throughout the process.",
+    name: "Natalie Rivers",
+    designation: "Creative Director",
+    websiteLink: "#",
+    rating: 5
+  }
+];
+
+
+
+export const companyFeedback = [
+  {
+    company: "Digital Dream",
+    role: "Web Developer Tutor",
+    feedback: "Ezea Ugochukwu Micheal has been an exceptional Web Developer Tutor at Digital Dream. His knowledge of full-stack web development is vast, and he has played a key role in mentoring budding developers.",
+    period: "2021-2024",
+    icon: "assets/img/work/2.png",
+    rating: 5,
+    link:'https://digitaldreamsng.com/'
+  },
+  {
+    company: "DeGoodDev",
+    role: "Software Developer",
+    feedback: "At DeGoodDev, Ezea's contributions as a Software Developer have been invaluable. His expertise in web development and software solutions has consistently driven our projects forward.",
+    period: "2024-2025",
+    icon: "assets/img/work/3.png",
+    rating: 4,
+    link:'https://digitaldreamsng.com/'
+  },
+  {
+    company: "Hux WebDev",
+    role: "IT Student",
+    feedback: "During his time at Hux WebDev, Ezea exhibited exceptional problem-solving skills. His determination to understand complex concepts and apply them effectively made him a standout IT student.",
+    period: "2023-2024",
+    icon: "assets/img/work/1.jpg",
+    rating: 4,
+    link:'https://www.youtube.com/results?search_query=huxn+webdev'
+  },
+  {
+    company: "JayHub",
+    role: "Senior Web Developer",
+    feedback: "As a Senior Web Developer at JayHub, Ezea has consistently demonstrated top-tier technical skills and leadership. His ability to manage large-scale web applications is remarkable, and his contributions have been crucial to our success.",
+    period: "2022-Still Now",
+    icon: "assets/img/work/4.png",
+    rating: 5,
+    link:'https://jayhub247.com/'
   }
 ];
