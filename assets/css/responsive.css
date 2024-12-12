@@ -176,13 +176,10 @@
     opacity: 1;
   }
 
-  .profile-card .image {
-    aspect-ratio: 6 / 4;
-  }
+
 
   .profile-card .image img {
     object-fit: cover;
-    height: 100%;
   }
 
   .common-button-groups .btn {

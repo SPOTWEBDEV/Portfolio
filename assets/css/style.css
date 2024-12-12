@@ -418,13 +418,13 @@ p {
 }
 
 .profile-card .image {
-	
 	border-radius: 8px;
-	overflow: hidden;
+	height:250px;
 }
 
 .profile-card .image img {
 	margin-top: 10px;
+	height: 100%;
 }
 
 .profile-card .text {
@@ -1210,7 +1210,7 @@ p {
 }
 
 .article-publications-item .image {
-	aspect-ratio: 6/4;
+	
 	overflow: hidden;
 	border-radius: 8px;
 	position: relative;
