@@ -178,9 +178,7 @@
 
 
 
-  .profile-card .image img {
-    object-fit: cover;
-  }
+  
 
   .common-button-groups .btn {
     padding: 16px 24px;
@@ -482,5 +480,12 @@
     width: 100%;
     font-size: 18px;
     height: 64px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  /* Styles for viewports between 600px and 1200px wide */
+  body {
+    background-color: lightblue;
   }
 }
