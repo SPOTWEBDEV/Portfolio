@@ -189,3 +189,40 @@ export const companyFeedback = [
     link:'https://jayhub247.com/'
   }
 ];
+
+
+
+export const work = [
+    {
+      id:1,
+      section:'banking',
+      link:'https://caddence.com/',
+      image:'./assets/img/project/2.png'
+
+    },
+    {
+      id:2,
+      section:'banking',
+      link:'https://unitypeaks.com/',
+      image:'./assets/img/project/3.png'
+    },
+    {
+      id:3,
+      section:'crypto',
+      link:'https://fineasespace.com/',
+      image:'./assets/img/project/4.png'
+    },
+    {
+      id:4,
+      section:'banking & crypto',
+      link:'https://gainsprouthub.com/',
+      image:'./assets/img/project/6.png'
+    },
+    {
+      id:5,
+      section:'investment',
+      link:'https://assetvest-shareholder.com/',
+      image:'./assets/img/project/5.png'
+    },
+    
+]

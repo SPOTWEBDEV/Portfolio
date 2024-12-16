@@ -541,7 +541,7 @@ p {
 
 .card-projects .project-item .image {
 	background-color: var(--background);
-	padding: 24px;
+	padding: 4px;
 	padding-bottom: 0;
 	border-radius: 8px;
 	overflow: hidden;
