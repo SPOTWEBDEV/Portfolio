@@ -118,32 +118,32 @@ export const clientFeedback = [
   {
     client: "Framer.com",
     review: "We've been using Ezea's web development services for over a year now, and his dedication to creating high-quality web applications has exceeded our expectations. His expertise is unmatched, and he's always delivering top-notch results.",
-    name: "Oliver Clain",
-    designation: "Product Designer",
+    name: "Adebayo Oladipo",
+    designation: "Entrepreneur ",
     websiteLink: "#",
     rating: 5
   },
   {
     client: "TechyWorks",
     review: "Ezea helped us revamp our entire website, and the result was amazing. His attention to detail and creativity in designing a user-friendly interface made a huge difference for our brand. Highly recommend!",
-    name: "Sarah Jameson",
-    designation: "Marketing Lead",
+    name: "Ogechi Nwankwo",
+    designation: "Pharmacist",
     websiteLink: "#",
     rating: 5
   },
   {
     client: "GoGreenSolutions",
     review: "Working with Ezea was an absolute pleasure. He developed a highly responsive and visually appealing web application for our eco-friendly business, and it has significantly improved our online engagement.",
-    name: "Daniel Kline",
-    designation: "Operations Manager",
+    name: "Nnamdi Okoro",
+    designation: "Civil Servant",
     websiteLink: "#",
     rating: 5
   },
   {
     client: "CreativeMinds",
     review: "Ezea transformed our online presence with his expert web development skills. From ideation to implementation, his professionalism and skill set were clear throughout the process.",
-    name: "Natalie Rivers",
-    designation: "Creative Director",
+    name: "Kelechi Chukwu",
+    designation: "Business Consultant",
     websiteLink: "#",
     rating: 5
   }
