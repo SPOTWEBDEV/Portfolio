@@ -4,7 +4,10 @@ export const expertiseItems = [
   { imgSrc: "assets/img/Expertarea/3.png", alt: "Laravel Image", title: "Laravel" },
   { imgSrc: "assets/img/Expertarea/4.png", alt: "php Image", title: "PHP" },
   { imgSrc: "assets/img/Expertarea/5.svg", alt: "next js Image", title: "Next JS" },
-  { imgSrc: "assets/img/Expertarea/6.png", alt: "node js Image", title: "Node JS" }
+  { imgSrc: "assets/img/Expertarea/6.png", alt: "node js Image", title: "Node JS" },
+  { imgSrc: "assets/img/Expertarea/7.png", alt: "Github Image", title: "GitHub" },
+  { imgSrc: "assets/img/Expertarea/9.png", alt: "MySqli Image", title: "MySqli" },
+  { imgSrc: "assets/img/Expertarea/8.png", alt: "node js Image", title: "Tailwindcss" },
 ];
 
 export const workExperiences = [
@@ -166,7 +169,7 @@ export const companyFeedback = [
     role: "Software Developer",
     feedback: "At DeGoodDev, Ezea's contributions as a Software Developer have been invaluable. His expertise in web development and software solutions has consistently driven our projects forward.",
     period: "2024-2025",
-    icon: "assets/img/work/3.png",
+    icon: "assets/img/work/3(1).png",
     rating: 4,
     link:'https://digitaldreamsng.com/'
   },
