@@ -369,14 +369,14 @@
                     
                       function renderProjects() {
                         console.log(`---- Start Index: ${i} ----`);
-                        const total = i + 2; // Number of items to display at a time
+                        const total = i + 4; // Number of items to display at a time
                     
                         let timer = setInterval(() => {
                           if (i < total) {
                             const index = i % work.length; // Use modulo to loop back to the beginning
                             console.log(`---- Rendering Index: ${index} ----`);
                     
-                            const { section, image, link } = work[index];
+                            const { section, image, link , title} = work[index];
                     
                             parentContainer.innerHTML += `
                               <div class="col-lg-12">
@@ -392,8 +392,8 @@
                                   </div>
                                   <div class="text">
                                     <div class="info">
-                                      <a href="${link}" class="title">${section}</a>
-                                      <p class="subtitle">${section}</p>
+                                      <a href="${link}" class="title">${title}</a>
+                                      <p class="subtitle">${section} Website</p>
                                     </div>
                                     <div class="visite-btn">
                                       <a href="${link}" target="_blank">Visit Site

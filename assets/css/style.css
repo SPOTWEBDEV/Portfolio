@@ -545,12 +545,14 @@ p {
 	border-radius: 8px;
 	overflow: hidden;
 	position: relative;
+	max-height: 300px;
 }
 
 .card-projects .project-item .image img {
 	border-radius: 8px;
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
+	height: 100%;
 }
 
 .card-projects .project-item .image .info {

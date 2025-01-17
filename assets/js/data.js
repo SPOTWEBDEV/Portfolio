@@ -198,34 +198,81 @@ export const companyFeedback = [
 export const work = [
     {
       id:1,
-      section:'banking',
+      section:'Banking',
+      title:'Caddence Finance',
       link:'https://caddence.com/',
       image:'./assets/img/project/2.png'
 
     },
     {
       id:2,
-      section:'banking',
+      section:'Banking',
+      title:'Unity Peaks',
       link:'https://unitypeaks.com/',
       image:'./assets/img/project/3.png'
     },
     {
       id:3,
-      section:'crypto',
+      section:'Crypto',
+      title:'Fineasespaces',
       link:'https://fineasespace.com/',
       image:'./assets/img/project/4.png'
     },
     {
       id:4,
-      section:'banking & crypto',
+      section:'Banking & Crypto',
+      title:'Fineasespaces',
       link:'https://gainsprouthub.com/',
       image:'./assets/img/project/6.png'
     },
     {
       id:5,
-      section:'investment',
+      section:'Investment',
+      title:'Assetvest Shareholder',
       link:'https://assetvest-shareholder.com/',
       image:'./assets/img/project/5.png'
+    },
+    {
+      id:6,
+      section:'Crypto',
+      title:'VictorNC Exchange',
+      link:'https://victorncexchange.vercel.app/',
+      image:'./assets/img/project/11.png'
+    },
+    {
+      id:7,
+      section:'Medical',
+      title:'Pwaccomultilink Health Care',
+      link:'http://travel.com.pwaccomultilinkservice.com',
+      image:'./assets/img/project/12.png'
+    },
+    {
+      id:8,
+      section:'Visa & Immigration',
+      title:'Pwaccomultilink Travel Agency',
+      link:'https://travel.com.pwaccomultilinkservice.com',
+      image:'./assets/img/project/10.png'
+    },
+    {
+      id:9,
+      section:'Multi-Sevice',
+      title:'Pwaccomultilink',
+      link:'pwaccomultilinkservice.com',
+      image:'./assets/img/project/9.png'
+    },
+    {
+      id:10,
+      section:'Banking',
+      title:'Prosper PFB',
+      link:'https://prosperportalfin.com/',
+      image:'./assets/img/project/7.png'
+    },
+    {
+      id:10,
+      section:'BUssiness & Consultant ',
+      title:'Business & Tax Consulting Group, INC',
+      link:'https://bustaxbookkeeping.com',
+      image:'./assets/img/project/13.png'
     },
     
 ]
