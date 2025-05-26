@@ -276,3 +276,53 @@ export const work = [
     },
     
 ]
+
+
+
+export const teams = [
+    {
+        id: 1,
+        name: 'Ezea ugochukwu Micheal',
+        occupation: 'Software Engineering and CEO of SPOTWEB TECH',
+        bio: 'Ezea Ugochukwu Micheal is a seasoned software engineer and the visionary CEO of SPOTWEB TECH. He leads the team with a passion for innovation and excellence in web development.',
+        image: '/img/team/4.jpg',
+        positionStyle: 'bottom',
+        tags: ['Leadership', 'Software Engineering', 'Project Management', 'FullStack Development']
+    },
+    {
+        id: 2,
+        name: 'Uchenna Godwill',
+        occupation: 'FullStack Web Developer And Graphic Designer',
+        bio: 'Uchenna Godwill is a versatile full-stack web developer and talented graphic designer. He bridges the gap between backend functionality and stunning front-end visuals.',
+        image: '/img/team/5.jpg',
+        positionStyle: 'center',
+        tags: ['FullStack Development', 'Graphic Design', 'UI/UX', 'Frontend', 'Backend']
+    },
+    {
+        id: 3,
+        name: 'Chidiebere Divine',
+        occupation: 'Backend Developer',
+        bio: 'Chidiebere Divine specializes in backend development, building robust and scalable server-side solutions to power modern web applications.',
+        image: '/img/team/1.jpg',
+        positionStyle: 'center',
+        tags: ['Backend Development', 'API Design', 'Database Management', 'Server Architecture']
+    },
+    {
+        id: 4,
+        name: 'Somto Ogbodo',
+        occupation: 'Frontend Developer And Editor',
+        bio: 'Somto Ogbodo crafts engaging user interfaces and also brings creative flair as a content editor, ensuring seamless digital experiences.',
+        image: '/img/team/2.jpg',
+        positionStyle: 'center',
+        tags: ['Frontend Development', 'UI/UX', 'Web Design', 'Content Editing']
+    },
+    {
+        id: 5,
+        name: 'Emmanuel Btc',
+        occupation: 'Graphic Designer And UI/UX Designer',
+        bio: 'Emmanuel BTC combines graphic design artistry with intuitive UI/UX principles to create visually compelling and user-friendly digital products.',
+        image: '/img/team/3.jpg',
+        positionStyle: 'center',
+        tags: ['Graphic Design', 'UI/UX Design', 'Branding', 'Visual Communication']
+    }
+];
