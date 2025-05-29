@@ -52,83 +52,72 @@ export const awards = [
 export const blogNews = [
   {
     id: 1,
-    title: "The Growing Importance of Web Development in Today’s Digital Economy",
-    image: 'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=600',
+    title: "Build Your Dream CV: How We're Revolutionizing Online Resume Creation",
+    image: 'https://images.pexels.com/photos/5673502/pexels-photo-5673502.jpeg?auto=compress&cs=tinysrgb&w=600',
     text: [
-      "Web development is one of the most dynamic and rapidly evolving fields in the tech industry. As businesses and individuals increasingly rely on the internet for daily activities, the demand for professional web developers continues to rise. Web development is not just about making websites look good; it’s about building reliable, secure, and efficient systems that users can interact with seamlessly. As a web engineer, I’ve had the privilege of working on a variety of projects that help businesses connect with their customers in meaningful ways."
+      "Creating professional CVs and resumes online has never been easier. We’re developing a user-friendly web application that allows users to build and export stunning CVs in just minutes. With modern templates, live editing, and export options (PDF/Word), this tool is perfect for job seekers, freelancers, and professionals who want to stand out. Our focus is on usability, performance, and beautiful design."
     ],
-    textfromceo: "With the digital world constantly evolving, my focus is on creating websites that aren’t just functional but truly enhance user experience. Web development isn’t just about coding—it's about creating an experience that users will value and engage with.",
-    tags: ["Web Development", "Coding"],
-    readTime: "12 min read",
-    date: "Dec 2, 2024"
+    textfromceo: "Our goal is to empower users to present themselves professionally without needing design or tech skills. This resume builder makes personal branding accessible and efficient.",
+    tags: ["Resume Builder", "Career Tools"],
+    readTime: "8 min read",
+    date: "May 29, 2025"
   },
 
   {
     id: 2,
-    title: "Building Robust Investment Websites: Key Features and Challenges",
-    image: 'https://images.pexels.com/photos/8293714/pexels-photo-8293714.jpeg?auto=compress&cs=tinysrgb&w=600',
+    title: "Smart Websites for Builders: Showcasing Projects & Winning Clients",
+    image: 'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=600',
     text: [
-      "One of the most exciting areas of web development is creating **investment websites**. These platforms provide users with the ability to track and manage their portfolios, analyze market trends, and make informed financial decisions. Building an investment website requires a deep understanding of security protocols, data encryption, and real-time updates. My work in this space has focused on ensuring that users can securely access their financial data and interact with the website in a way that is both intuitive and efficient."
+      "We’re currently developing websites tailored specifically for builders, contractors, and construction companies. These sites highlight past projects, list services, enable quote requests, and showcase trust with testimonials and certifications. Having a strong digital presence is a key differentiator in today's competitive construction industry."
     ],
-    textfromceo: "Investment websites must prioritize security and usability. My goal is to provide platforms that help users navigate complex financial data easily while ensuring their data is protected at all times.",
-    tags: ["Investment Websites", "Web Development"],
-    readTime: "12 min read",
-    date: "Dec 2, 2024"
+    textfromceo: "Construction businesses need websites that are as solid as their buildings—clear, functional, and impressive. We're helping builders turn digital visitors into real clients.",
+    tags: ["Construction Websites", "Web Design"],
+    readTime: "10 min read",
+    date: "May 29, 2025"
   },
 
   {
     id: 3,
-    title: "Creating Economic Websites: Data, Insights, and User Engagement",
-    image: 'https://images.pexels.com/photos/8761528/pexels-photo-8761528.jpeg?auto=compress&cs=tinysrgb&w=600',
+    title: "Digital Invoicing Made Simple: Our New Receipt & Invoice Website Solution",
+    image: 'https://images.pexels.com/photos/8962476/pexels-photo-8962476.jpeg?auto=compress&cs=tinysrgb&w=600',
     text: [
-      "Economic websites play a vital role in providing users with the latest market trends, economic data, and analysis. These platforms help users understand complex economic concepts and real-time data through clear visualizations and interactive features. In my experience, building an economic website requires integrating data feeds from reliable sources and presenting that data in a user-friendly way. The goal is to make economic information accessible and actionable for both casual users and professionals."
+      "Managing receipts and invoices manually is outdated. Our new platform allows businesses to create, send, and track professional invoices online. With custom branding, PDF export, and payment integration features, this tool streamlines financial processes for freelancers, small businesses, and service providers alike."
     ],
-    textfromceo: "My focus when working on economic websites is on making data not just informative but truly engaging. Interactive elements and data visualization tools are key to helping users understand the information they need.",
-    tags: ["Economic Websites", "Data Visualization"],
-    readTime: "12 min read",
-    date: "Dec 2, 2024"
+    textfromceo: "Invoicing should be fast, accurate, and branded. We're building a solution that handles all that while giving business owners more control and professionalism.",
+    tags: ["Invoice App", "Business Tools"],
+    readTime: "9 min read",
+    date: "May 29, 2025"
   },
 
   {
     id: 4,
-    title: "Introducing SmartEvilIntel: A New Web Application for Smarter Financial Decisions",
+    title: "Empowering the Next Generation: Launching Our Mentorship Program Website",
+    image: 'https://media.istockphoto.com/id/1366073727/photo/male-coach-presenting-business-plan-strategy-or-new-project-on-meeting.jpg?s=612x612&w=0&k=20&c=nzKNefbghqFg6UOW_zqXvZ_EqtyC4oHT-OlJeTIVknw=',
     text: [
-      "I am excited to introduce my latest project, **SmartEvilIntel**. This innovative web app leverages artificial intelligence to provide users with actionable insights about investment opportunities and economic data. SmartEvilIntel analyzes financial markets in real-time and presents users with intelligent recommendations. Whether you are an investor, a financial advisor, or simply someone looking to make better financial decisions, this platform is designed to help you navigate the complexities of the financial world with ease."
+      "We’re proud to announce the launch of our new mentorship platform. The website is designed to connect mentees with experienced professionals, schedule 1-on-1 sessions, track progress, and access exclusive learning content. This initiative is part of our mission to give back and empower the next generation of tech leaders and entrepreneurs."
     ],
-    textfromceo: "With **SmartEvilIntel**, I’m combining the power of artificial intelligence with the world of finance to offer a tool that makes financial analysis smarter and more accessible. It’s not just about presenting data—it’s about giving users actionable insights to improve their financial decisions.",
-    tags: ["SmartEvilIntel", "AI"],
-    readTime: "12 min read",
-    date: "Dec 2, 2024"
-  },
-
-  {
-    id: 5,
-    title: "December Offer: 50% Discount on Web Development & Software Engineering Services",
-    image: 'https://images.pexels.com/photos/29724183/pexels-photo-29724183/free-photo-of-children-with-santa-claus-by-christmas-tree.jpeg?auto=compress&cs=tinysrgb&w=600',
-    text: [
-      "To celebrate the holidays and the end of the year, I’m excited to offer a **50% discount** on all web development and software engineering services throughout December. Whether you need a new **investment website**, a custom **web app**, or an **economic website**, this is the perfect time to bring your project to life. Don’t miss this limited-time opportunity to work with an experienced web developer at an affordable price."
-    ],
-    textfromceo: "This December, I want to help you take your digital presence to the next level. Whether you're launching a startup or improving your current website, let’s work together to create something exceptional—and take advantage of a 50% discount!",
-    tags: ["December Offer", "Discount"],
-    readTime: "12 min read",
-    date: "Dec 2, 2024"
+    textfromceo: "Mentorship changed my life. Now I’m building the platform I wish I had—one that makes connection, guidance, and growth accessible to everyone who’s eager to learn.",
+    tags: ["Mentorship", "Growth"],
+    readTime: "10 min read",
+    date: "May 29, 2025"
   }
 ];
+
 
 
 
 export const clientFeedback = [
   {
     client: "Framer.com",
-    review: "We've been using Ezea's web development services for over a year now, and his dedication to creating high-quality web applications has exceeded our expectations. His expertise is unmatched, and he's always delivering top-notch results.",
+    review: "We've been using SPOTWEB TECH's web development services for over a year now, and their dedication to creating high-quality web applications has exceeded our expectations. Their expertise is unmatched, and they always deliver top-notch results.",
     name: "Adebayo Oladipo",
-    designation: "Entrepreneur ",
+    designation: "Entrepreneur",
     websiteLink: "#",
     rating: 5
   },
   {
     client: "TechyWorks",
-    review: "Ezea helped us revamp our entire website, and the result was amazing. His attention to detail and creativity in designing a user-friendly interface made a huge difference for our brand. Highly recommend!",
+    review: "SPOTWEB TECH helped us revamp our entire website, and the result was amazing. Their attention to detail and creativity in designing a user-friendly interface made a huge difference for our brand. Highly recommend!",
     name: "Ogechi Nwankwo",
     designation: "Pharmacist",
     websiteLink: "#",
@@ -136,7 +125,7 @@ export const clientFeedback = [
   },
   {
     client: "GoGreenSolutions",
-    review: "Working with Ezea was an absolute pleasure. He developed a highly responsive and visually appealing web application for our eco-friendly business, and it has significantly improved our online engagement.",
+    review: "Working with SPOTWEB TECH was an absolute pleasure. They developed a highly responsive and visually appealing web application for our eco-friendly business, significantly improving our online engagement.",
     name: "Nnamdi Okoro",
     designation: "Civil Servant",
     websiteLink: "#",
@@ -144,13 +133,62 @@ export const clientFeedback = [
   },
   {
     client: "CreativeMinds",
-    review: "Ezea transformed our online presence with his expert web development skills. From ideation to implementation, his professionalism and skill set were clear throughout the process.",
+    review: "SPOTWEB TECH transformed our online presence with their expert web development skills. From ideation to implementation, their professionalism and skill set were clear throughout the process.",
     name: "Kelechi Chukwu",
     designation: "Business Consultant",
     websiteLink: "#",
     rating: 5
+  },
+  {
+    client: "EcoSmart Ltd",
+    review: "SPOTWEB TECH delivered a seamless, mobile-friendly site that boosted our customer conversions by 40%. Their understanding of UX and performance optimization is outstanding.",
+    name: "Funmi Adeyemi",
+    designation: "Marketing Manager",
+    websiteLink: "#",
+    rating: 5
+  },
+  {
+    client: "NairaShop",
+    review: "Our e-commerce platform went from sluggish to speedy thanks to SPOTWEB TECH. Their technical depth and prompt delivery impressed us beyond measure.",
+    name: "Tunde Lawal",
+    designation: "eCommerce Specialist",
+    websiteLink: "#",
+    rating: 5
+  },
+  {
+    client: "StudyEdge Africa",
+    review: "The learning platform SPOTWEB TECH built for us is scalable, fast, and modern. Our student engagement rate has more than doubled.",
+    name: "Adaeze Obi",
+    designation: "EdTech Founder",
+    websiteLink: "#",
+    rating: 5
+  },
+  {
+    client: "Zenith Creatives",
+    review: "We needed a site that reflected our artistic vision. SPOTWEB TECH not only understood the brief but exceeded our aesthetic expectations.",
+    name: "Ibrahim Sule",
+    designation: "Creative Director",
+    websiteLink: "#",
+    rating: 5
+  },
+  {
+    client: "FarmLink Africa",
+    review: "SPOTWEB TECH built us a custom farm produce listing app that now serves thousands of users weekly. Their backend expertise is top-tier.",
+    name: "Chinyere Eze",
+    designation: "AgriTech Entrepreneur",
+    websiteLink: "#",
+    rating: 5
+  },
+  {
+    client: "Health360",
+    review: "We needed a HIPAA-compliant portal for our clinic and SPOTWEB TECH delivered flawlessly. Their attention to privacy and security was impressive.",
+    name: "Dr. Ifeanyi Ekeh",
+    designation: "Medical Practitioner",
+    websiteLink: "#",
+    rating: 5
   }
 ];
+
 
 
 
