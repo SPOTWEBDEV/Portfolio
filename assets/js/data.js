@@ -52,55 +52,67 @@ export const awards = [
 export const blogNews = [
   {
     id: 1,
-    title: "Build Your Dream CV: How We're Revolutionizing Online Resume Creation",
-    image: 'https://images.pexels.com/photos/5673502/pexels-photo-5673502.jpeg?auto=compress&cs=tinysrgb&w=600',
+    title: "Crafting Careers: Building a Smart Resume & CV Web Platform",
+    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600",
     text: [
-      "Creating professional CVs and resumes online has never been easier. We’re developing a user-friendly web application that allows users to build and export stunning CVs in just minutes. With modern templates, live editing, and export options (PDF/Word), this tool is perfect for job seekers, freelancers, and professionals who want to stand out. Our focus is on usability, performance, and beautiful design."
+      "In today's competitive job market, a professional resume isn’t just a document—it’s your first impression. We’re developing an innovative web application that allows users to build polished, customizable resumes and CVs in minutes.",
+      
+      "The platform is designed with simplicity and functionality in mind. Users can choose from a wide selection of modern templates, add or remove sections with drag-and-drop ease, and customize fonts, colors, and layouts to reflect their personal brand. Real-time previews ensure that every change is instantly visible.",
+      
+      "Additional features include expert writing tips, PDF and Word export options, cloud saving for future edits, and the ability to integrate portfolio links, LinkedIn profiles, and personal branding elements. Whether you're a student, a freelancer, or a seasoned professional, this tool adapts to your goals."
     ],
-    textfromceo: "Our goal is to empower users to present themselves professionally without needing design or tech skills. This resume builder makes personal branding accessible and efficient.",
-    tags: ["Resume Builder", "Career Tools"],
+    textfromceo: "We’re building more than just a resume creator—we’re crafting a career-launching platform. Our goal is to empower users to present themselves confidently, creatively, and professionally with every application they send out.",
+    tags: ["Resume Builder", "Career Development", "Web App"],
     readTime: "8 min read",
     date: "May 29, 2025"
   },
 
   {
     id: 2,
-    title: "Smart Websites for Builders: Showcasing Projects & Winning Clients",
-    image: 'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=600',
+    title: "Meta-Building: Crafting a Website to Help You Build your Websites",
+    image: "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=600",
     text: [
-      "We’re currently developing websites tailored specifically for builders, contractors, and construction companies. These sites highlight past projects, list services, enable quote requests, and showcase trust with testimonials and certifications. Having a strong digital presence is a key differentiator in today's competitive construction industry."
+      "Imagine building your own website—without writing a single line of code. We’re working on a powerful, intuitive platform that empowers users to create custom websites with ease. This drag-and-drop website builder is designed for entrepreneurs, creatives, small businesses, and anyone ready to launch their online presence—fast.",
+      
+      "The platform includes beautifully designed templates, real-time editing, custom domain integration, responsive layouts, SEO settings, and more. Whether you're creating a portfolio, landing page, e-commerce store, or blog, everything you need is built in—with simplicity and flexibility at the core.",
+      
+      "Our goal is to remove the complexity and let creativity flow. No more technical roadblocks or expensive developer costs—just a clean, user-first interface that lets you bring your ideas to life online."
     ],
-    textfromceo: "Construction businesses need websites that are as solid as their buildings—clear, functional, and impressive. We're helping builders turn digital visitors into real clients.",
-    tags: ["Construction Websites", "Web Design"],
-    readTime: "10 min read",
+    textfromceo: "This project is about putting power into the hands of creators. We’re not just building a tool—we’re building a platform that helps people build their dreams, beautifully and independently.",
+    tags: ["Website Builder", "No-Code", "Web Tools"],
+    readTime: "8 min read",
     date: "May 29, 2025"
   },
 
   {
     id: 3,
-    title: "Digital Invoicing Made Simple: Our New Receipt & Invoice Website Solution",
-    image: 'https://images.pexels.com/photos/8962476/pexels-photo-8962476.jpeg?auto=compress&cs=tinysrgb&w=600',
+    title: "Smart Invoicing, Simplified: A Next-Gen Platform for Receipts & Billing",
+    image: "https://images.pexels.com/photos/4386321/pexels-photo-4386321.jpeg?auto=compress&cs=tinysrgb&w=600",
     text: [
-      "Managing receipts and invoices manually is outdated. Our new platform allows businesses to create, send, and track professional invoices online. With custom branding, PDF export, and payment integration features, this tool streamlines financial processes for freelancers, small businesses, and service providers alike."
+      "Gone are the days of clunky spreadsheets and handwritten receipts. We’re building a powerful, modern invoicing web application that lets businesses create, send, and track professional receipts and invoices—effortlessly.",
+      "This platform is more than just a billing tool—it’s a full-fledged financial assistant. With custom branding, automated tax and discount calculations, one-click PDF exports, and real-time payment tracking, we’re helping businesses look polished and stay organized. Whether you're a freelancer, a startup, or a growing enterprise, this tool adapts to your workflow.",
+      "Designed with simplicity and speed in mind, our invoicing system ensures you're always a few clicks away from sending your next invoice or reviewing your income history. Plus, secure cloud storage means your financial records are always backed up and accessible."
     ],
-    textfromceo: "Invoicing should be fast, accurate, and branded. We're building a solution that handles all that while giving business owners more control and professionalism.",
-    tags: ["Invoice App", "Business Tools"],
-    readTime: "9 min read",
+    textfromceo: "We’re creating a tool that helps businesses feel more confident and professional with every transaction. This isn’t just invoicing—it’s elevating the way you get paid, and how clients perceive your brand.",
+    tags: ["Invoicing", "Receipts", "Business Tools"],
+    readTime: "8 min read",
     date: "May 29, 2025"
   },
 
   {
     id: 4,
-    title: "Empowering the Next Generation: Launching Our Mentorship Program Website",
-    image: 'https://media.istockphoto.com/id/1366073727/photo/male-coach-presenting-business-plan-strategy-or-new-project-on-meeting.jpg?s=612x612&w=0&k=20&c=nzKNefbghqFg6UOW_zqXvZ_EqtyC4oHT-OlJeTIVknw=',
+    title: "Guiding the Next Generation: Our Mentorship Program Is Shaping Future Innovators",
+    image: "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg?auto=compress&cs=tinysrgb&w=600",
     text: [
-      "We’re proud to announce the launch of our new mentorship platform. The website is designed to connect mentees with experienced professionals, schedule 1-on-1 sessions, track progress, and access exclusive learning content. This initiative is part of our mission to give back and empower the next generation of tech leaders and entrepreneurs."
+      "Behind every great professional is a mentor who believed in them first. We’re proud to be running a dynamic mentorship program that’s opening doors, building confidence, and unlocking potential in the next generation of tech enthusiasts, creatives, and future leaders.",
+      "This isn't just about sharing knowledge—it's about forming meaningful connections. Through one-on-one sessions, guided learning paths, and real-world project collaborations, mentees gain hands-on experience, industry insights, and the support they need to take bold steps in their careers.",
+      "Whether they’re learning how to code, build their first portfolio, or understand the mindset of successful entrepreneurs, this program is designed to light the path ahead. It’s personal. It’s powerful. And it’s just the beginning."
     ],
-    textfromceo: "Mentorship changed my life. Now I’m building the platform I wish I had—one that makes connection, guidance, and growth accessible to everyone who’s eager to learn.",
-    tags: ["Mentorship", "Growth"],
-    readTime: "10 min read",
+    textfromceo: "Mentorship has the power to change lives. I’m honored to give back by guiding others, just as others once guided me. This program is about more than skills—it's about helping people believe in their own potential.",
+    tags: ["Mentorship", "Career Growth", "Community"],
+    readTime: "7 min read",
     date: "May 29, 2025"
-  }
+  },
 ];
 
 
