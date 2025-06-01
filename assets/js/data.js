@@ -63,7 +63,7 @@ export const blogNews = [
     ],
     textfromceo: "We’re building more than just a resume creator—we’re crafting a career-launching platform. Our goal is to empower users to present themselves confidently, creatively, and professionally with every application they send out.",
     tags: ["Resume Builder", "Career Development", "Web App"],
-    readTime: "8 min read",
+    readTime: "197 views",
     date: "May 29, 2025"
   },
 
@@ -80,7 +80,7 @@ export const blogNews = [
     ],
     textfromceo: "This project is about putting power into the hands of creators. We’re not just building a tool—we’re building a platform that helps people build their dreams, beautifully and independently.",
     tags: ["Website Builder", "No-Code", "Web Tools"],
-    readTime: "8 min read",
+    readTime: "310 views",
     date: "May 29, 2025"
   },
 
@@ -95,7 +95,7 @@ export const blogNews = [
     ],
     textfromceo: "We’re creating a tool that helps businesses feel more confident and professional with every transaction. This isn’t just invoicing—it’s elevating the way you get paid, and how clients perceive your brand.",
     tags: ["Invoicing", "Receipts", "Business Tools"],
-    readTime: "8 min read",
+    readTime: "220 views",
     date: "May 29, 2025"
   },
 
@@ -110,7 +110,7 @@ export const blogNews = [
     ],
     textfromceo: "Mentorship has the power to change lives. I’m honored to give back by guiding others, just as others once guided me. This program is about more than skills—it's about helping people believe in their own potential.",
     tags: ["Mentorship", "Career Growth", "Community"],
-    readTime: "7 min read",
+    readTime: "280 views",
     date: "May 29, 2025"
   },
 ];
