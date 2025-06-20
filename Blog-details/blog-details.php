@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+  <!-- Mirrored from marveltheme.com/tf/html/bentofolio-html/article.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Dec 2024 12:45:19 GMT -->
+
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,23 +11,20 @@
     <meta name="description" content="SPOTWEB TECH -  Personal Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.svg">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fontawsome/css/all.min.css">
-    <link rel="stylesheet" href="assets/fontawsome/css/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fontawsome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/fontawsome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
   </head>
 
   <body>
-
     <div id="page-content">
       <!-- header part start -->
       <header class="header-area">
@@ -33,14 +33,14 @@
             <div class="menu-container">
               <div class="logo">
                 <a style="color:#2563EB" class="navbar-brand me-0" href="index.html">
-                  <img style="height: 100px;" src="./assets/img/logo.png" alt="Site Logo">
+                  <i class="bi bi-star-half"></i>
+                  <span>SPOTWEB<span class="primary">TECH</span></span>
                 </a>
               </div>
               <div class="navbar-main d-flex flex-grow-1">
                 <div class="logo inner-logo d-block d-xl-none">
                   <a class="navbar-brand me-0" href="index.html">
                     <i class="bi bi-star-half"></i>
-                    
                     <span>SPOTWEB<span class="primary">TECH</span></span>
                   </a>
                 </div>
@@ -105,7 +105,7 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="teams.html">
+                    <a class="nav-link" href="contact.html">
                       <svg class="nav-icon" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.66699 5.5H12.3337" stroke-width="1.4" stroke-linecap="round"
                           stroke-linejoin="round" />
@@ -115,7 +115,7 @@
                           d="M14 1.3335C14.663 1.3335 15.2989 1.59689 15.7678 2.06573C16.2366 2.53457 16.5 3.17045 16.5 3.8335V10.5002C16.5 11.1632 16.2366 11.7991 15.7678 12.2679C15.2989 12.7368 14.663 13.0002 14 13.0002H9.83333L5.66667 15.5002V13.0002H4C3.33696 13.0002 2.70107 12.7368 2.23223 12.2679C1.76339 11.7991 1.5 11.1632 1.5 10.5002V3.8335C1.5 3.17045 1.76339 2.53457 2.23223 2.06573C2.70107 1.59689 3.33696 1.3335 4 1.3335H14Z"
                           stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
                       </svg>
-                      Teams
+                      Contact
                     </a>
                   </li>
                   <li class="nav-item dropdown">
@@ -208,17 +208,19 @@
 
       <!-- main area part start -->
       <main>
-        <section class="home-area">
+
+        <section class="content-box-area mt-4">
           <div class="container">
             <div class="row g-4">
               <div class="col-xl-4">
                 <div class="card profile-card">
                   <div class="card-body">
                     <div class="image text-center">
-                      <img style="width:100%;" src="assets/img/me/1.jpg" alt="profile">
+                      <img style="width:100%;" src="../assets/img/me/1.jpg" alt="profile">
                     </div>
                     <div class="text">
                       <h3 class="card-title">Ezea Ugochukwu Micheal (Firstclass) 👋</h3>
+
                       <p>
                         <span>Ezea Ugochukwu Micheal</span> helps businesses and individuals create amazing websites and
                         online tools. Whether you need a simple website to showcase your business, an online store to
@@ -276,125 +278,48 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4">
-                <div class="row g-4">
-                  <div class="col-lg-12">
-                    <div class="card">
-                      <div class="card-body work-experiance-card">
-                        <h3 class="card-title">Work Experience</h3>
-                        <div class="work-experiance-main">
-                          <ul class="work-experiance-slider list-unstyled">
-                            <!-- Work experiences will be dynamically added here -->
-                          </ul>
+              <div class="col-xl-8">
+                <div class="card content-box-card">
+                  <div class="card-body portfolio-card article-details-card">
+                    <div class="article-details-area">
+
+                      <div class="article-details-text">
+
+
+                        <div id="details">
+                          
                         </div>
-                      </div>
 
-
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="card expertise-card">
-                      <div class="card-body">
-                        <h3 class="card-title">My Expert Area
-                        </h3>
-                        <div class="expertise-main mt-24">
-                          <div class="row g-3" id="expert">
-
-
+                        <div class="related-post">
+                          <h2 class="main-common-title">Related Post
+                          </h2>
+                          <div class="row g-4" id="recentBlog">
+                            
                           </div>
                         </div>
+
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4">
-                <div class="card card-projects">
-                  <div class="card-body">
-
-                    <h3 class="card-title">Recent Projects <a class="link-btn" href="portfolio.html">All Projects
-                        <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M4.16699 10H15.8337" stroke="#4770FF" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                          <path d="M10.833 15L15.833 10" stroke="#4770FF" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                          <path d="M10.833 5L15.833 10" stroke="#4770FF" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        </svg>
-
-                      </a></h3>
-                    <div class="projects-main mt-24">
-                      <div class="row g-4 parent-container">
-                        
-                        
-                      </div>
-
-                      <script type="module">
-
-                        import {work} from './assets/js/data.js'
-                         
-                        function getRandomItems(sourceArray, numberOfItems) {
-                          const selectedItems = [];
-                          const sourceCopy = [...sourceArray]; // Copy of the source array to avoid mutation
-                        
-                          while (selectedItems.length < numberOfItems && sourceCopy.length > 0) {
-                            const randomIndex = Math.floor(Math.random() * sourceCopy.length);
-                            selectedItems.push(sourceCopy.splice(randomIndex, 1)[0]); // Remove and add to selected
-                          }
-                        
-                          return selectedItems;
-                        }
-                        
-                        // Example usage
-                        const randomItems = getRandomItems(work, 4); // Select 3 random items
-                        
-                        for(let i=0;i<randomItems.length;i++){
-                          const {section,image} = randomItems[i]
-                           const html = `<div class="col-lg-12">
-                          <div class="project-item">
-                            <div class="image">
-                              <img src="${image}" alt="project-1" class="img-fluid w-100">
-                              <a href="${image}"
-                                class="gallery-popup full-image-preview parent-container">
-                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
-                                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                  stroke-width="1.5">
-                                  <path d="M10 4.167v11.666M4.167 10h11.666"></path>
-                                </svg>
-                              </a>
-                              <div class="info">
-                                <span class="category">${section} website</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>`
-
-                         document.querySelector('.parent-container').innerHTML += html
-                        }
-
-                      </script>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
         </section>
+
         <!-- background shape area start -->
         <div class="background-shapes">
           <div class="shape-1 common-shape">
-            <img src="assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
+            <img src="../assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
           </div>
           <div class="shape-2 common-shape">
-            <img src="assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
+            <img src="../assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
           </div>
           <div class="threed-shape-1 move-with-cursor" data-value="1">
-            <img src="assets/img/bg/object-3d-1.png" alt="object-3d-1">
+            <img src="../assets/img/bg/object-3d-1.png" alt="object-3d-1">
           </div>
           <div class="threed-shape-2 move-with-cursor" data-value="1">
-            <img src="assets/img/bg/object-3d-2.png" alt="object-3d-2">
+            <img src="../assets/img/bg/object-3d-2.png" alt="object-3d-2">
           </div>
         </div>
         <!-- background shape area end -->
@@ -413,116 +338,141 @@
     </div>
 
     <!-- JS here -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/ajax-form.js"></script>
-    <script src="assets/js/clipboard.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="../assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="../assets/js/ajax-form.js"></script>
+    <script src="../assets/js/clipboard.min.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/script.js"></script>
 
     <script type="module">
+      import { blogNews } from './../assets/js/data.js'
+      function getBlogFromUrl() {
+        const urlParams = new URLSearchParams(window.location.search); // Get the URL search parameters
+        const blogValue = urlParams.get('blog'); // Get the 'blog' parameter
+        return blogValue; // Return the value of the 'blog' parameter
+      }
+      
 
-      import { workExperiences, expertiseItems } from './assets/js/data.js'
-
-
-      const workExperienceContainer = document.querySelector(".work-experiance-slider");
-
-      workExperiences.forEach((experience) => {
-        const listItem = document.createElement("li");
-        listItem.innerHTML = `
-          <div class="date">
-            <p>${experience.date}</p>
-          </div>
-          <div class="info">
-            <div class="icon">
-              <img src="${experience.icon}" alt="${experience.company}">
-            </div>
-            <div class="text">
-              <h4 class="title">${experience.company}</h4>
-              <h6 class="subtitle">${experience.role}</h6>
-            </div>
-          </div>
-        `;
-        workExperienceContainer.appendChild(listItem);
-      });
+      console.log(blogNews)
 
 
-      const expert = document.querySelector('#expert');
-      expertiseItems.forEach((el, index) => {
+      // Call the function and log the result
 
-        const html = `<div class="col-xl-4 col-md-4 col-sm-6 col-6">
-          <div class="expertise-item">
-            <div class="image text-center">
-              <img src="${el.imgSrc}" alt="${el.alt}">
-            </div>
-            <div class="text">
-              <h4 class="title">${el.title}</h4>
-            </div>
-          </div>
-        </div>`
-        expert.innerHTML += html
+      const singleBlog = blogNews.filter(items => items.id == getBlogFromUrl())
+      singleBlog.forEach((el, ind) => {
+
+        const {date,image,readTime,title,textfromceo,tags,text} = el
+
+        const html = `<div class="main-image">
+                            <img src="${image}" alt="${title}" class="img-fluid w-100">
+                          </div>
+                          <ul class="list-unstyled article-tags">
+                            <li>${readTime}</li>
+                            <li>${date}</li>
+                            <li>1.5k Views</li>
+                          </ul>
+                          <h3 class="main-title">${title}</h3>
+                          <p>${text}
+                          </p>
+
+                          <blockquote>
+                            <p>
+                              " ${textfromceo} "
+                            </p>
+                          </blockquote>
+                          
+                          
+                          
+                          <div class="tags-and-share">
+                            <div class="tags">
+                              <h3 class="title">Tags:</h3>
+                              <ul class="list-unstyled">
+                                ${tagsFunction(tags)}
+                              </ul>
+                            </div>
+                            <div class="share">
+                              <h3 class="title">Share:</h3>
+                              <div class="social-media-icon mt-0">
+                                <ul class="list-unstyled">
+                                  <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                  <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                  <li><a href="#"><i class="fab fa-github"></i></a></li>
+                                  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>`
+        document.querySelector('#details').innerHTML = html
+
 
       })
 
+      function message(message) {
+        return tagsArray.map(message => {
+          return `<p>${message}</p>`; // Generate <a> tags for each tag in the array
+        }).join(''); // Join all tags into one string
+      }
 
+      function tagsFunction(tagsArray) {
+        return tagsArray.map(tag => {
+          return `<li><a href="#">${tag}</a></li>`; // Generate <a> tags for each tag in the array
+        }).join(''); // Join all tags into one string
+      }
 
+      const recentBlog = document.getElementById("recentBlog");
 
-// Function to play an audio file
-function playAudio(audioSrc) {
-  const audio = new Audio(audioSrc);
-  audio.play().catch((err) => {
-      console.error("Audio playback failed:", err);
-      alert("Please tap the button to enable audio playback.");
-  });
-}
-
-// Function to handle the timing and audio playback
-function setupAudioPlayback() {
-  // Play the first audio immediately after user interaction
-  const firstAudioSrc = '/assets/audios/AUDIO-2024-12-12-22-40-15.aac'; // Replace with your first audio file path
-  playAudio(firstAudioSrc);
-
-  // Schedule the second audio to play after 3 minutes (180,000 milliseconds)
-  const secondAudioSrc = './assets/audios/AUDIO-2024-12-12-22-40-15.aac'; // Replace with your second audio file path
-  setTimeout(() => {
-      playAudio(secondAudioSrc);
-  }, 180000); // 3 minutes in milliseconds
-}
-
-// Add a button for user interaction
-function initializeAudioButton() {
-  const button = document.createElement('button');
-  button.textContent = 'Enable Audio';
-  button.style.position = 'fixed';
-  button.style.bottom = '20px';
-  button.style.right = '20px';
-  button.style.padding = '10px 20px';
-  button.style.border = 'none';
-  button.style.borderRadius = '5px';
-  button.style.backgroundColor = '#007BFF';
-  button.style.color = '#FFFFFF';
-  button.style.fontSize = '16px';
-  button.style.cursor = 'pointer';
-  document.body.appendChild(button);
-
-  button.addEventListener('click', () => {
-      setupAudioPlayback();
-      button.remove(); // Remove the button after enabling audio
-  });
-}
-
-// Run the setup function after the page loads
-window.onload = initializeAudioButton;
-
-
-
-
-
+      // Shuffle the blogNews array and pick the first 2 items
+      const randomArticles = getRandomArticles(blogNews, 2);
+    
+      randomArticles.forEach(article => {
+        const articleHTML = `
+          <div class="col-md-6">
+                              <div class="article-publications-item">
+                                <div class="image">
+                                  <a href="article.html" class="d-block w-100">
+                                    <img src="${article.image}" alt="blog-img-1" class="img-fluid w-100">
+                                  </a>
+                                  
+                                  <div class="tags-holder">${tags(article.tags)}</div>
+                                </div>
+                                <div class="text">
+                                  <a href="article.html" class="title">${article.title}</a>
+                                  <ul class="list-unstyled">
+                                    <li>15 min read</li>
+                                    <li>${article.date}</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+              
+        `;
+        recentBlog.innerHTML += articleHTML; // Append the generated HTML to the container
+      });
+    
+      // Function to shuffle the array and return the first n items
+      function getRandomArticles(arr, num) {
+        // Shuffle the array using Fisher-Yates shuffle
+        const shuffledArray = [...arr];
+        for (let i = shuffledArray.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]]; // Swap elements
+        }
+    
+        // Return the first 'num' elements from the shuffled array
+        return shuffledArray.slice(0, num);
+      }
+    
+      // Function to generate HTML for tags
+      function tags(tagsArray) {
+        return tagsArray.map(tag => {
+          return `<p href="#" class="tags">${tag}</p>`; // Generate <p> tags for each tag in the array
+        }).join(''); // Join all tags into one string
+      }
 
 
     </script>
   </body>
-
 
 </html>

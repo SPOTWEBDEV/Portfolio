@@ -6,23 +6,21 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>SPOTWEB TECH - Bootstrap Personal Portfolio Template</title>
+  <title>SPOTWEBTECH - Bootstrap Personal Portfolio Template</title>
   <meta name="description" content="Bentofolio - Bootstrap Personal Portfolio Template">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
+  <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.svg">
   <!-- Place favicon.ico in the root directory -->
 
   <!-- CSS here -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/fontawsome/css/all.min.css">
-  <link rel="stylesheet" href="assets/fontawsome/css/fontawesome.min.css">
-  <link rel="stylesheet" href="assets/css/slick.css">
-  <link rel="stylesheet" href="assets/css/magnific-popup.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/fontawsome/css/all.min.css">
+  <link rel="stylesheet" href="../assets/fontawsome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="../assets/css/slick.css">
+  <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
 </head>
 
 <body>
@@ -30,12 +28,16 @@
     <!-- header part start -->
     <header class="header-area">
       <nav class="navbar">
-        <div class="w-100">
+        <div class="container">
           <div class="menu-container">
             <div class="logo">
-              <a style="color:#2563EB" class="navbar-brand me-0" href="index.html">
-                <i class="bi bi-star-half"></i>
-                <span>SPOTWEB<span class="primary">TECH</span></span>
+              <a class="navbar-brand me-0" href="index.html">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0L9 0C9.39782 0 9.77936 0.158035 10.0607 0.43934C10.342 0.720644 10.5 1.10218 10.5 1.5V22.5C10.5 22.8978 10.342 23.2794 10.0607 23.5607C9.77936 23.842 9.39782 24 9 24H1.5C1.10218 24 0.720644 23.842 0.43934 23.5607C0.158035 23.2794 0 22.8978 0 22.5V1.5ZM13.5 1.5C13.5 1.10218 13.658 0.720644 13.9393 0.43934C14.2206 0.158035 14.6022 0 15 0L22.5 0C22.8978 0 23.2794 0.158035 23.5607 0.43934C23.842 0.720644 24 1.10218 24 1.5V9C24 9.39782 23.842 9.77936 23.5607 10.0607C23.2794 10.342 22.8978 10.5 22.5 10.5H15C14.6022 10.5 14.2206 10.342 13.9393 10.0607C13.658 9.77936 13.5 9.39782 13.5 9V1.5ZM13.5 15C13.5 14.6022 13.658 14.2206 13.9393 13.9393C14.2206 13.658 14.6022 13.5 15 13.5H22.5C22.8978 13.5 23.2794 13.658 23.5607 13.9393C23.842 14.2206 24 14.6022 24 15V22.5C24 22.8978 23.842 23.2794 23.5607 23.5607C23.2794 23.842 22.8978 24 22.5 24H15C14.6022 24 14.2206 23.842 13.9393 23.5607C13.658 23.2794 13.5 22.8978 13.5 22.5V15Z"
+                    class="logo-icon" />
+                </svg>
+                <span>Bento<span class="primary">Folio</span></span>
               </a>
             </div>
             <div class="navbar-main d-flex flex-grow-1">
@@ -46,7 +48,7 @@
                       d="M0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0L9 0C9.39782 0 9.77936 0.158035 10.0607 0.43934C10.342 0.720644 10.5 1.10218 10.5 1.5V22.5C10.5 22.8978 10.342 23.2794 10.0607 23.5607C9.77936 23.842 9.39782 24 9 24H1.5C1.10218 24 0.720644 23.842 0.43934 23.5607C0.158035 23.2794 0 22.8978 0 22.5V1.5ZM13.5 1.5C13.5 1.10218 13.658 0.720644 13.9393 0.43934C14.2206 0.158035 14.6022 0 15 0L22.5 0C22.8978 0 23.2794 0.158035 23.5607 0.43934C23.842 0.720644 24 1.10218 24 1.5V9C24 9.39782 23.842 9.77936 23.5607 10.0607C23.2794 10.342 22.8978 10.5 22.5 10.5H15C14.6022 10.5 14.2206 10.342 13.9393 10.0607C13.658 9.77936 13.5 9.39782 13.5 9V1.5ZM13.5 15C13.5 14.6022 13.658 14.2206 13.9393 13.9393C14.2206 13.658 14.6022 13.5 15 13.5H22.5C22.8978 13.5 23.2794 13.658 23.5607 13.9393C23.842 14.2206 24 14.6022 24 15V22.5C24 22.8978 23.842 23.2794 23.5607 23.5607C23.2794 23.842 22.8978 24 22.5 24H15C14.6022 24 14.2206 23.842 13.9393 23.5607C13.658 23.2794 13.5 22.8978 13.5 22.5V15Z"
                       class="logo-icon" />
                   </svg>
-                  <span>SPOTWEB<span class="primary">TECH</span></span>
+                  <span>Bento<span class="primary">Folio</span></span>
                 </a>
               </div>
               <ul class="navbar-info mx-auto">
@@ -59,12 +61,12 @@
                       <path d="M10.9753 10.1665C9.13359 11.2773 6.14859 11.2773 4.30859 10.1665" stroke-width="1.4"
                         stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-  
+
                     <span>Home</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="about.html">
+                  <a class="nav-link" href="about.html">
                     <svg class="nav-icon" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M9 9.8335C9.66304 9.8335 10.2989 9.5701 10.7678 9.10126C11.2366 8.63242 11.5 7.99654 11.5 7.3335C11.5 6.67045 11.2366 6.03457 10.7678 5.56573C10.2989 5.09689 9.66304 4.8335 9 4.8335C8.33696 4.8335 7.70107 5.09689 7.23223 5.56573C6.76339 6.03457 6.5 6.67045 6.5 7.3335C6.5 7.99654 6.76339 8.63242 7.23223 9.10126C7.70107 9.5701 8.33696 9.8335 9 9.8335Z"
@@ -79,7 +81,19 @@
                     About
                   </a>
                 </li>
-  
+                <li class="nav-item">
+                  <a class="nav-link active" href="services.html">
+                    <svg class="nav-icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7.99967 1.3335L1.33301 4.66683L7.99967 8.00016L14.6663 4.66683L7.99967 1.3335Z"
+                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M1.33301 8L7.99967 11.3333L14.6663 8" stroke-width="1.4" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                      <path d="M1.33301 11.3335L7.99967 14.6668L14.6663 11.3335" stroke-width="1.4"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Services
+                  </a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="portfolio.html">
                     <svg class="nav-icon" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -123,25 +137,6 @@
                     Contact
                   </a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <svg class="nav-icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M7.99967 1.3335L1.33301 4.66683L7.99967 8.00016L14.6663 4.66683L7.99967 1.3335Z"
-                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
-                      <path d="M1.33301 8L7.99967 11.3333L14.6663 8" stroke-width="1.4" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                      <path d="M1.33301 11.3335L7.99967 14.6668L14.6663 11.3335" stroke-width="1.4"
-                        stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    Pages
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                    <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
-                    <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
-                  </ul>
-                </li>
-  
               </ul>
               <div class="header-right-info d-flex align-items-center">
                 <button class="theme-control-btn">
@@ -182,13 +177,12 @@
                       <path
                         d="M12 7C12.9797 6.99994 13.9378 7.28769 14.7553 7.8275C15.5729 8.36731 16.2138 9.1354 16.5986 10.0364C16.9833 10.9373 17.0949 11.9315 16.9195 12.8953C16.7441 13.8592 16.2893 14.7502 15.6118 15.4579C14.9343 16.1655 14.0638 16.6585 13.1085 16.8756C12.1532 17.0928 11.1552 17.0245 10.2383 16.6793C9.3215 16.334 8.52629 15.7271 7.95146 14.9338C7.37663 14.1405 7.04752 13.1958 7.005 12.217L7 12L7.005 11.783C7.06092 10.4958 7.61161 9.27978 8.54222 8.38866C9.47284 7.49754 10.7115 7.00007 12 7Z"
                         fill="#FD7E41" />
-  
                     </svg>
                     <small class="theme-text d-block d-xl-none">Change appearance</small>
                   </span>
                 </button>
                 <a href="contact.html" class="lets-talk-btn">
-                  Booking Now
+                  Let's Talk
                   <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M17.5 11.6665V6.6665H12.5" stroke="white" stroke-width="1.5" stroke-linecap="round"
@@ -221,51 +215,48 @@
               <div class="card profile-card">
                 <div class="card-body">
                   <div class="image text-center">
-                    <img style="width:100%;" src="assets/img/me/1.jpg" alt="profile">
+                    <img src="../assets/img/images/profile.png" alt="profile">
                   </div>
                   <div class="text">
-                    <h3 class="card-title">Ezea Ugochukwu Micheal (Firstclass) 👋</h3>
-                    <!-- <p>A Passionate <span>Full Stack Developer</span> 🖥️ & <span>Product Designer</span> having
+                    <h3 class="card-title">Cris Rayaan 👋</h3>
+                    <p>A Passionate <span>Full Stack Developer</span> 🖥️ & <span>Product Designer</span> having
                       <span>12
                         years</span> of Experiences over 24+
-                      Country Worldwide.</p> -->
-                    <p>
-                      <span>Ezea Ugochukwu Micheal</span> helps businesses and individuals create amazing websites and
-                      online tools. Whether you need a simple website to showcase your business, an online store to
-                      sell your products, or a custom platform to manage your work, <span>Firstclass</span> has the
-                      skills to bring your ideas to life.
-                    </p>
+                      Country Worldwide.</p>
                     <div class="common-button-groups">
-                      <!-- WhatsApp Button -->
-                      <a class="btn btn-call" href="https://wa.me/08108833188" target="_blank">
-                        <svg class="icon" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M5.5 4H9.5L11.5 9L9 10.5C10.071 12.6715 11.8285 14.429 14 15.5L15.5 13L20.5 15V19C20.5 19.5304 20.2893 20.0391 19.9142 20.4142C19.5391 20.7893 19.0304 21 18.5 21C14.5993 20.763 10.9202 19.1065 8.15683 16.3432C5.3935 13.5798 3.73705 9.90074 3.5 6C3.5 5.46957 3.71071 4.96086 4.08579 4.58579C4.46086 4.21071 4.96957 4 5.5 4Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path d="M15.5 7C16.0304 7 16.5391 7.21071 16.9142 7.58579C17.2893 7.96086 17.5 8.46957 17.5 9" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path d="M15.5 3C17.0913 3 18.6174 3.63214 19.7426 4.75736C20.8679 5.88258 21.5 7.4087 21.5 9" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      <a class="btn btn-call" href="#">
+                        <svg class="icon" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M5.5 4H9.5L11.5 9L9 10.5C10.071 12.6715 11.8285 14.429 14 15.5L15.5 13L20.5 15V19C20.5 19.5304 20.2893 20.0391 19.9142 20.4142C19.5391 20.7893 19.0304 21 18.5 21C14.5993 20.763 10.9202 19.1065 8.15683 16.3432C5.3935 13.5798 3.73705 9.90074 3.5 6C3.5 5.46957 3.71071 4.96086 4.08579 4.58579C4.46086 4.21071 4.96957 4 5.5 4Z"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M15.5 7C16.0304 7 16.5391 7.21071 16.9142 7.58579C17.2893 7.96086 17.5 8.46957 17.5 9"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M15.5 3C17.0913 3 18.6174 3.63214 19.7426 4.75736C20.8679 5.88258 21.5 7.4087 21.5 9"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-                        Chat with me on WhatsApp
+                        Book A call
                       </a>
-                    
-                      <!-- Email Button -->
-                      <a class="btn btn-email" href="mailto:SPOTWEB TECH.com@gmail.com?subject=Hello%20from%20Your%20Website&body=I%20would%20like%20to%20chat%20with%20you!" target="_blank">
-                        <i class="bi bi-envelope"></i>
-                        
-                        Send me a message on email
-                      </a>
-                    
-                      <!-- Copy Email Button (Optional) -->
                       <button class="btn btn-copy" data-clipboard-text="example@example.com">
-                        <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M8 10C8 9.46957 8.21071 8.96086 8.58579 8.58579C8.96086 8.21071 9.46957 8 10 8H18C18.5304 8 19.0391 8.21071 19.4142 8.58579C19.7893 8.96086 20 9.46957 20 10V18C20 18.5304 19.7893 19.0391 19.4142 19.4142C19.0391 19.7893 18.5304 20 18 20H10C9.46957 20 8.96086 19.7893 8.58579 19.4142C8.21071 19.0391 8 18.5304 8 18V10Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path d="M16 8V6C16 5.46957 15.7893 4.96086 15.4142 4.58579C15.0391 4.21071 14.5304 4 14 4H6C5.46957 4 4.96086 4.21071 4.58579 4.58579C4.21071 4.96086 4 5.46957 4 6V14C4 14.5304 4.21071 15.0391 4.58579 15.4142C4.96086 15.7893 5.46957 16 6 16H8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8 10C8 9.46957 8.21071 8.96086 8.58579 8.58579C8.96086 8.21071 9.46957 8 10 8H18C18.5304 8 19.0391 8.21071 19.4142 8.58579C19.7893 8.96086 20 9.46957 20 10V18C20 18.5304 19.7893 19.0391 19.4142 19.4142C19.0391 19.7893 18.5304 20 18 20H10C9.46957 20 8.96086 19.7893 8.58579 19.4142C8.21071 19.0391 8 18.5304 8 18V10Z"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M16 8V6C16 5.46957 15.7893 4.96086 15.4142 4.58579C15.0391 4.21071 14.5304 4 14 4H6C5.46957 4 4.96086 4.21071 4.58579 4.58579C4.21071 4.96086 4 5.46957 4 6V14C4 14.5304 4.21071 15.0391 4.58579 15.4142C4.96086 15.7893 5.46957 16 6 16H8"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                         Copy Email
                       </button>
                     </div>
-                    
                     <div class="social-media-icon">
                       <ul class="list-unstyled">
-                        <li><a href="https://github.com/SPOTWEB TECH"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -275,120 +266,119 @@
             <div class="col-xl-8">
               <div class="card content-box-card">
                 <div class="card-body">
+                  <div class="top-info">
+                    <div class="text">
+                      <h1 class="main-title">Services I <span>Offered</span></h1>
+                      <p>Transforming Ideas into Innovative Reality, Elevate Your Vision with Our Expert <b>Product
+                          Design and Development</b> Services!</p>
+                    </div>
+                    <div class="available-btn">
+                      <span><i class="fas fa-circle"></i> Available For Hire</span>
+                    </div>
+                  </div>
+                  <div class="services">
+                    <div class="row g-4">
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="../assets/img/icons/ui-ux.svg" alt="ui-ux">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">UI UX Design</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="../assets/img/icons/app.svg" alt="app">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Mobile App</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="../assets/img/icons/prd-design.svg" alt="prd-design">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Product Design</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="../assets/img/icons/branding.svg" alt="branding">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Branding</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="../assets/img/icons/camera.svg" alt="camera">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Photography</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="../assets/img/icons/youtube.svg" alt="youtube">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Motion Design</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="../assets/img/icons/web-development.svg" alt="web-development">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Web Development</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="services-item text-center">
+                          <div class="image">
+                            <img src="../assets/img/icons/view.svg" alt="view">
+                          </div>
+                          <div class="text">
+                            <h3 class="title">Visualization</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="block-image">
+                      <img src="../assets/img/blog/blog-img-1.jpg" alt="blog-img-1" class="img-fluid w-100">
+                    </div>
+                  </div>
                  
-                  <div class="frequently-asked-questions">
-                           <h2 class="main-common-title">Frequently Asked Questions</h2>
-                           <div class="frequently-asked-questions-main">
-                             <div class="accordion" id="accordionExample">
-                               <div class="accordion-item">
-                                 <h4 class="accordion-header" id="headingOne">
-                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                     What services do you offer as a web developer?
-                                     <span class="ms-auto">
-                                       <span class="icon ms-4">
-                                         <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                         <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                       </span>
-                                     </span>
-                                   </button>
-                                 </h4>
-                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                   data-bs-parent="#accordionExample">
-                                   <div class="accordion-body">
-                                     <p>I offer end-to-end web development services, including creating websites, online stores, and custom web applications. I handle both the design and the technical setup, ensuring a complete solution tailored to your needs.</p>
-                                   </div>
-                                 </div>
-                               </div>
-                         
-                               <div class="accordion-item">
-                                 <h4 class="accordion-header" id="headingTwo">
-                                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                     How long does it take to complete a project?
-                                     <span class="ms-auto">
-                                       <span class="icon ms-4">
-                                         <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                         <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                       </span>
-                                     </span>
-                                   </button>
-                                 </h4>
-                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                   data-bs-parent="#accordionExample">
-                                   <div class="accordion-body">
-                                     <p>The timeline depends on the complexity of your project. Simple websites can take a week or two, while more complex applications may require several weeks or months. I'll provide a clear timeline during our initial consultation.</p>
-                                   </div>
-                                 </div>
-                               </div>
-                         
-                               <div class="accordion-item">
-                                 <h4 class="accordion-header" id="headingThree">
-                                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                     Do you provide ongoing support after the project is completed?
-                                     <span class="ms-auto">
-                                       <span class="icon ms-4">
-                                         <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                         <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                       </span>
-                                     </span>
-                                   </button>
-                                 </h4>
-                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                   data-bs-parent="#accordionExample">
-                                   <div class="accordion-body">
-                                     <p>Yes, I provide maintenance and support services to ensure your website or application continues to run smoothly. This includes updates, bug fixes, and adding new features as needed.</p>
-                                   </div>
-                                 </div>
-                               </div>
-                         
-                               <div class="accordion-item">
-                                 <h4 class="accordion-header" id="headingFour">
-                                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                     Can you help with redesigning an existing website?
-                                     <span class="ms-auto">
-                                       <span class="icon ms-4">
-                                         <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                         <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                       </span>
-                                     </span>
-                                   </button>
-                                 </h4>
-                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                   data-bs-parent="#accordionExample">
-                                   <div class="accordion-body">
-                                     <p>Absolutely! I can revamp your existing website to improve its design, functionality, and performance, making it more modern and user-friendly.</p>
-                                   </div>
-                                 </div>
-                               </div>
-                         
-                               <div class="accordion-item">
-                                 <h4 class="accordion-header" id="headingFive">
-                                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                     How much do you charge for your services?
-                                     <span class="ms-auto">
-                                       <span class="icon ms-4">
-                                         <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                         <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                       </span>
-                                     </span>
-                                   </button>
-                                 </h4>
-                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                   data-bs-parent="#accordionExample">
-                                   <div class="accordion-body">
-                                     <p>My rates depend on the scope and complexity of the project. Once we discuss your requirements, I’ll provide a detailed quote and ensure it fits within your budget.</p>
-                                   </div>
-                                 </div>
-                               </div>
-                             </div>
-                           </div>
-                         </div>
-                         
+                 
+              
                   
+                  <div class="work-together-slider">
+                    <div class="slider-main d-flex gap-4 align-items-center">
+                      <div class="slider-item">
+                        <a href="contact.html">Let's 👋 Work Together</a>
+                        <a href="contact.html">Let's 👋 Work Together</a>
+                      </div>
+                      <div class="slider-item">
+                        <a href="contact.html">Let's 👋 Work Together</a>
+                        <a href="contact.html">Let's 👋 Work Together</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -399,16 +389,16 @@
       <!-- background shape area start -->
       <div class="background-shapes">
         <div class="shape-1 common-shape">
-          <img src="assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
+          <img src="../assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
         </div>
         <div class="shape-2 common-shape">
-          <img src="assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
+          <img src="../assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
         </div>
         <div class="threed-shape-1 move-with-cursor" data-value="1">
-          <img src="assets/img/bg/object-3d-1.png" alt="object-3d-1">
+          <img src="../assets/img/bg/object-3d-1.png" alt="object-3d-1">
         </div>
         <div class="threed-shape-2 move-with-cursor" data-value="1">
-          <img src="assets/img/bg/object-3d-2.png" alt="object-3d-2">
+          <img src="../assets/img/bg/object-3d-2.png" alt="object-3d-2">
         </div>
       </div>
       <!-- background shape area end -->
@@ -427,13 +417,13 @@
   </div>
 
   <!-- JS here -->
-  <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/ajax-form.js"></script>
-  <script src="assets/js/clipboard.min.js"></script>
-  <script src="assets/js/slick.min.js"></script>
-  <script src="assets/js/script.js"></script>
+  <script src="../assets/js/vendor/jquery-3.6.0.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="../assets/js/ajax-form.js"></script>
+  <script src="../assets/js/clipboard.min.js"></script>
+  <script src="../assets/js/slick.min.js"></script>
+  <script src="../assets/js/script.js"></script>
 </body>
 
 
