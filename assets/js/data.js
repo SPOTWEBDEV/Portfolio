@@ -120,7 +120,7 @@ export const blogNews = [
 
 export const clientFeedback = [
   {
-    client: "Framer.com",
+    client: "interpreneur",
     review: "We've been using SPOTWEB TECH's web development services for over a year now, and their dedication to creating high-quality web applications has exceeded our expectations. Their expertise is unmatched, and they always deliver top-notch results.",
     name: "Adebayo Oladipo",
     designation: "Entrepreneur",

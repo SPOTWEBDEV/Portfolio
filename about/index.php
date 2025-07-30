@@ -1,40 +1,68 @@
+<?php  
+
+include('../server/connection.php');
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from marveltheme.com/tf/html/bentofolio-html/services.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Dec 2024 12:45:09 GMT -->
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>SPOTWEB TECH - Bootstrap Personal Portfolio Template</title>
-  <meta name="description" content="Bentofolio - Bootstrap Personal Portfolio Template">
+  <title>SPOTWEB TECH - Personal Portfolio </title>
+    <meta name="description" content="SPOTWEB TECH -  Personal Portfolio">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
+  <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.svg">
   <!-- Place favicon.ico in the root directory -->
 
   <!-- CSS here -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/fontawsome/css/all.min.css">
-  <link rel="stylesheet" href="assets/fontawsome/css/fontawesome.min.css">
-  <link rel="stylesheet" href="assets/css/slick.css">
-  <link rel="stylesheet" href="assets/css/magnific-popup.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/fontawsome/css/all.min.css">
+  <link rel="stylesheet" href="../assets/fontawsome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="../assets/css/slick.css">
+  <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
   <div id="page-content">
     <!-- header part start -->
-    <header class="header-area">
+    <!-- <header class="header-area">
       <nav class="navbar">
         <div class="w-100">
           <div class="menu-container">
             <div class="logo">
-              <a style="color:#2563EB" class="navbar-brand me-0" href="index.html">
-                <i class="bi bi-star-half"></i>
+              <a class="navbar-brand me-0" href="index.html">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0L9 0C9.39782 0 9.77936 0.158035 10.0607 0.43934C10.342 0.720644 10.5 1.10218 10.5 1.5V22.5C10.5 22.8978 10.342 23.2794 10.0607 23.5607C9.77936 23.842 9.39782 24 9 24H1.5C1.10218 24 0.720644 23.842 0.43934 23.5607C0.158035 23.2794 0 22.8978 0 22.5V1.5ZM13.5 1.5C13.5 1.10218 13.658 0.720644 13.9393 0.43934C14.2206 0.158035 14.6022 0 15 0L22.5 0C22.8978 0 23.2794 0.158035 23.5607 0.43934C23.842 0.720644 24 1.10218 24 1.5V9C24 9.39782 23.842 9.77936 23.5607 10.0607C23.2794 10.342 22.8978 10.5 22.5 10.5H15C14.6022 10.5 14.2206 10.342 13.9393 10.0607C13.658 9.77936 13.5 9.39782 13.5 9V1.5ZM13.5 15C13.5 14.6022 13.658 14.2206 13.9393 13.9393C14.2206 13.658 14.6022 13.5 15 13.5H22.5C22.8978 13.5 23.2794 13.658 23.5607 13.9393C23.842 14.2206 24 14.6022 24 15V22.5C24 22.8978 23.842 23.2794 23.5607 23.5607C23.2794 23.842 22.8978 24 22.5 24H15C14.6022 24 14.2206 23.842 13.9393 23.5607C13.658 23.2794 13.5 22.8978 13.5 22.5V15Z"
+                    class="logo-icon" />
+                </svg>
                 <span>SPOTWEB<span class="primary">TECH</span></span>
               </a>
             </div>
@@ -46,7 +74,7 @@
                       d="M0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0L9 0C9.39782 0 9.77936 0.158035 10.0607 0.43934C10.342 0.720644 10.5 1.10218 10.5 1.5V22.5C10.5 22.8978 10.342 23.2794 10.0607 23.5607C9.77936 23.842 9.39782 24 9 24H1.5C1.10218 24 0.720644 23.842 0.43934 23.5607C0.158035 23.2794 0 22.8978 0 22.5V1.5ZM13.5 1.5C13.5 1.10218 13.658 0.720644 13.9393 0.43934C14.2206 0.158035 14.6022 0 15 0L22.5 0C22.8978 0 23.2794 0.158035 23.5607 0.43934C23.842 0.720644 24 1.10218 24 1.5V9C24 9.39782 23.842 9.77936 23.5607 10.0607C23.2794 10.342 22.8978 10.5 22.5 10.5H15C14.6022 10.5 14.2206 10.342 13.9393 10.0607C13.658 9.77936 13.5 9.39782 13.5 9V1.5ZM13.5 15C13.5 14.6022 13.658 14.2206 13.9393 13.9393C14.2206 13.658 14.6022 13.5 15 13.5H22.5C22.8978 13.5 23.2794 13.658 23.5607 13.9393C23.842 14.2206 24 14.6022 24 15V22.5C24 22.8978 23.842 23.2794 23.5607 23.5607C23.2794 23.842 22.8978 24 22.5 24H15C14.6022 24 14.2206 23.842 13.9393 23.5607C13.658 23.2794 13.5 22.8978 13.5 22.5V15Z"
                       class="logo-icon" />
                   </svg>
-                  <span>SPOTWEB<span class="primary">TECH</span></span>
+                  <span>Bento<span class="primary">Folio</span></span>
                 </a>
               </div>
               <ul class="navbar-info mx-auto">
@@ -59,7 +87,7 @@
                       <path d="M10.9753 10.1665C9.13359 11.2773 6.14859 11.2773 4.30859 10.1665" stroke-width="1.4"
                         stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-  
+
                     <span>Home</span>
                   </a>
                 </li>
@@ -79,7 +107,7 @@
                     About
                   </a>
                 </li>
-  
+               
                 <li class="nav-item">
                   <a class="nav-link" href="portfolio.html">
                     <svg class="nav-icon" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -141,7 +169,7 @@
                     <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
                   </ul>
                 </li>
-  
+                
               </ul>
               <div class="header-right-info d-flex align-items-center">
                 <button class="theme-control-btn">
@@ -182,13 +210,13 @@
                       <path
                         d="M12 7C12.9797 6.99994 13.9378 7.28769 14.7553 7.8275C15.5729 8.36731 16.2138 9.1354 16.5986 10.0364C16.9833 10.9373 17.0949 11.9315 16.9195 12.8953C16.7441 13.8592 16.2893 14.7502 15.6118 15.4579C14.9343 16.1655 14.0638 16.6585 13.1085 16.8756C12.1532 17.0928 11.1552 17.0245 10.2383 16.6793C9.3215 16.334 8.52629 15.7271 7.95146 14.9338C7.37663 14.1405 7.04752 13.1958 7.005 12.217L7 12L7.005 11.783C7.06092 10.4958 7.61161 9.27978 8.54222 8.38866C9.47284 7.49754 10.7115 7.00007 12 7Z"
                         fill="#FD7E41" />
-  
+
                     </svg>
                     <small class="theme-text d-block d-xl-none">Change appearance</small>
                   </span>
                 </button>
                 <a href="contact.html" class="lets-talk-btn">
-                  Booking Now
+                  Let's Talk
                   <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M17.5 11.6665V6.6665H12.5" stroke="white" stroke-width="1.5" stroke-linecap="round"
@@ -208,7 +236,8 @@
           </div>
         </div>
       </nav>
-    </header>
+    </header> -->
+    <?Php include('../include/navbar.php') ?>
     <!-- header part end -->
 
     <!-- main area part start -->
@@ -217,18 +246,15 @@
       <section class="content-box-area mt-4">
         <div class="container">
           <div class="row g-4">
-            <div class="col-xl-4">
+            <div class="col-lg-4">
               <div class="card profile-card">
                 <div class="card-body">
                   <div class="image text-center">
-                    <img style="width:100%;" src="assets/img/me/1.jpg" alt="profile">
+                    <img style="width:100%;" src="../assets/img/me/1.jpg" alt="profile">
                   </div>
                   <div class="text">
                     <h3 class="card-title">Ezea Ugochukwu Micheal (Firstclass) 👋</h3>
-                    <!-- <p>A Passionate <span>Full Stack Developer</span> 🖥️ & <span>Product Designer</span> having
-                      <span>12
-                        years</span> of Experiences over 24+
-                      Country Worldwide.</p> -->
+                    
                     <p>
                       <span>Ezea Ugochukwu Micheal</span> helps businesses and individuals create amazing websites and
                       online tools. Whether you need a simple website to showcase your business, an online store to
@@ -272,123 +298,116 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-8">
+            <div class="col-lg-8">
               <div class="card content-box-card">
                 <div class="card-body">
+                  <div class="top-info">
+                    <div class="text">
+                      <h1 class="main-title" style="font-size: 25px;">Hi, This Is <span>Ezea ugochukwu micheal (firstclass)</span></h1>
+                      <p style="font-size: 14px !important;">Passionate about crafting innovative digital solutions, Ezea brings years of experience in developing websites and applications that meet industry standards. His commitment to clean code, efficient architecture, and cutting-edge technology ensures that every project he undertakes not only meets but exceeds client expectations. Ezea believes in collaboration, transparency, and continuous learning to provide the best outcomes for his clients.</p>
+                    </div>
+                    
+                  </div>
+                  <div class="counter-area">
+                    <div class="counter">
+                      <div class="counter-item">
+                        <h3 class="number">4+</h3>
+                        <p class="subtitle">Year of Experience</p>
+                      </div>
+                      <div class="counter-item">
+                        <h3 class="number">86+</h3>
+                        <p class="subtitle">Project Completed
+                        </p>
+                      </div>
+                      <div class="counter-item">
+                        <h3 class="number">72+</h3>
+                        <p class="subtitle">Happy Client
+                        </p>
+                      </div>
+                    </div>
+                    <div class="circle-area">
+                      <div class="circle-text">
+                        <img class="circle-image" src="../assets/img/about-us/circle-text.svg" alt="circle-text">
+                        <img class="circle-image circle-image-light d-none"
+                          src="../assets/img/about-us/circle-text-light.svg" alt="circle-text">
+                        <span class="arrow-down">
+                          <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 5V35" stroke="white" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                            <path d="M15 30L20 35L25 30" stroke="white" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
                  
-                  <div class="frequently-asked-questions">
-                           <h2 class="main-common-title">Frequently Asked Questions</h2>
-                           <div class="frequently-asked-questions-main">
-                             <div class="accordion" id="accordionExample">
-                               <div class="accordion-item">
-                                 <h4 class="accordion-header" id="headingOne">
-                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                     What services do you offer as a web developer?
-                                     <span class="ms-auto">
-                                       <span class="icon ms-4">
-                                         <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                         <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                       </span>
-                                     </span>
-                                   </button>
-                                 </h4>
-                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                   data-bs-parent="#accordionExample">
-                                   <div class="accordion-body">
-                                     <p>I offer end-to-end web development services, including creating websites, online stores, and custom web applications. I handle both the design and the technical setup, ensuring a complete solution tailored to your needs.</p>
-                                   </div>
-                                 </div>
-                               </div>
-                         
-                               <div class="accordion-item">
-                                 <h4 class="accordion-header" id="headingTwo">
-                                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                     How long does it take to complete a project?
-                                     <span class="ms-auto">
-                                       <span class="icon ms-4">
-                                         <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                         <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                       </span>
-                                     </span>
-                                   </button>
-                                 </h4>
-                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                   data-bs-parent="#accordionExample">
-                                   <div class="accordion-body">
-                                     <p>The timeline depends on the complexity of your project. Simple websites can take a week or two, while more complex applications may require several weeks or months. I'll provide a clear timeline during our initial consultation.</p>
-                                   </div>
-                                 </div>
-                               </div>
-                         
-                               <div class="accordion-item">
-                                 <h4 class="accordion-header" id="headingThree">
-                                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                     Do you provide ongoing support after the project is completed?
-                                     <span class="ms-auto">
-                                       <span class="icon ms-4">
-                                         <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                         <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                       </span>
-                                     </span>
-                                   </button>
-                                 </h4>
-                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                   data-bs-parent="#accordionExample">
-                                   <div class="accordion-body">
-                                     <p>Yes, I provide maintenance and support services to ensure your website or application continues to run smoothly. This includes updates, bug fixes, and adding new features as needed.</p>
-                                   </div>
-                                 </div>
-                               </div>
-                         
-                               <div class="accordion-item">
-                                 <h4 class="accordion-header" id="headingFour">
-                                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                     Can you help with redesigning an existing website?
-                                     <span class="ms-auto">
-                                       <span class="icon ms-4">
-                                         <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                         <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                       </span>
-                                     </span>
-                                   </button>
-                                 </h4>
-                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                   data-bs-parent="#accordionExample">
-                                   <div class="accordion-body">
-                                     <p>Absolutely! I can revamp your existing website to improve its design, functionality, and performance, making it more modern and user-friendly.</p>
-                                   </div>
-                                 </div>
-                               </div>
-                         
-                               <div class="accordion-item">
-                                 <h4 class="accordion-header" id="headingFive">
-                                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                     How much do you charge for your services?
-                                     <span class="ms-auto">
-                                       <span class="icon ms-4">
-                                         <img class="icon-plus" src="assets/img/icons/plus.svg" alt="plus">
-                                         <img class="icon-minus d-none" src="assets/img/icons/minus.svg" alt="minus">
-                                       </span>
-                                     </span>
-                                   </button>
-                                 </h4>
-                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                   data-bs-parent="#accordionExample">
-                                   <div class="accordion-body">
-                                     <p>My rates depend on the scope and complexity of the project. Once we discuss your requirements, I’ll provide a detailed quote and ensure it fits within your budget.</p>
-                                   </div>
-                                 </div>
-                               </div>
-                             </div>
-                           </div>
-                         </div>
-                         
                   
+                  <div class="awards-recognitions">
+                    <h2 class="main-common-title">Awards and Recognitions</h2>
+                    <div class="awards-recognitions-main">
+                      <ul id="awards-container" class="list-unstyled">
+                        <!-- Awards will be dynamically injected here -->
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  <script type="module">
+                    // Array of awards objects
+                    
+                    import {awards} from './../assets/js/data.js'
+                  
+                    // Reference to awards container
+                    const awardsContainer = document.getElementById("awards-container");
+                  
+                    // Generate awards dynamically
+                    awards.forEach(award => {
+                      const awardHTML = `
+                        <li>
+                          <a href="${award.projectLink}" class="d-block w-100">
+                            <div class="awards-item">
+                              <div class="award-name">
+                                <div class="icon">
+                                  <img src="${award.icon}" alt="${award.title}">
+                                </div>
+                                <div class="text">
+                                  <h4 class="title">${award.title}</h4>
+                                  <p class="year">${award.year}</p>
+                                </div>
+                              </div>
+                              <div class="winner-tag">
+                                <h4 class="title">
+                                  <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 9C6 10.5913 6.63214 12.1174 7.75736 13.2426C8.88258 14.3679 10.4087 15 12 15C13.5913 15 15.1174 14.3679 16.2426 13.2426C17.3679 12.1174 18 10.5913 18 9C18 7.4087 17.3679 5.88258 16.2426 4.75736C15.1174 3.63214 13.5913 3 12 3C10.4087 3 8.88258 3.63214 7.75736 4.75736C6.63214 5.88258 6 7.4087 6 9Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 15L15.4 20.89L16.998 17.657L20.596 17.889L17.196 12" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M6.80234 12L3.40234 17.89L7.00034 17.657L8.59834 20.889L11.9983 15" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                                  ${award.result}
+                                </h4>
+                              </div>
+                              
+                            </div>
+                          </a>
+                        </li>
+                      `;
+                      awardsContainer.innerHTML += awardHTML;
+                    });
+                  </script>
+                  
+                  
+                  <div class="work-together-slider">
+                    <div class="slider-main d-flex gap-4 align-items-center">
+                      <div class="slider-item">
+                        <a href="contact.html">Let's 👋 Work Together</a>
+                        <a href="contact.html">Let's 👋 Work Together</a>
+                      </div>
+                      <div class="slider-item">
+                        <a href="contact.html">Let's 👋 Work Together</a>
+                        <a href="contact.html">Let's 👋 Work Together</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -399,16 +418,16 @@
       <!-- background shape area start -->
       <div class="background-shapes">
         <div class="shape-1 common-shape">
-          <img src="assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
+          <img src="../assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
         </div>
         <div class="shape-2 common-shape">
-          <img src="assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
+          <img src="../assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
         </div>
         <div class="threed-shape-1 move-with-cursor" data-value="1">
-          <img src="assets/img/bg/object-3d-1.png" alt="object-3d-1">
+          <img src="../assets/img/bg/object-3d-1.png" alt="object-3d-1">
         </div>
         <div class="threed-shape-2 move-with-cursor" data-value="1">
-          <img src="assets/img/bg/object-3d-2.png" alt="object-3d-2">
+          <img src="../assets/img/bg/object-3d-2.png" alt="object-3d-2">
         </div>
       </div>
       <!-- background shape area end -->
@@ -425,18 +444,17 @@
     </footer>
     <!-- footer part end -->
   </div>
-
   <!-- JS here -->
-  <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/ajax-form.js"></script>
-  <script src="assets/js/clipboard.min.js"></script>
-  <script src="assets/js/slick.min.js"></script>
-  <script src="assets/js/script.js"></script>
+  <script src="../assets/js/vendor/jquery-3.6.0.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="../assets/js/ajax-form.js"></script>
+  <script src="../assets/js/clipboard.min.js"></script>
+  <script src="../assets/js/slick.min.js"></script>
+  <script src="../assets/js/script.js"></script>
 </body>
 
 
 
-<!-- Mirrored from marveltheme.com/tf/html/bentofolio-html/services.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Dec 2024 12:45:12 GMT -->
+<!-- Mirrored from marveltheme.com/tf/html/bentofolio-html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Dec 2024 12:45:08 GMT -->
 </html>

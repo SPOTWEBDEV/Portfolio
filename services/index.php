@@ -1,3 +1,10 @@
+<?php 
+include('/..server/connection.php');
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,23 +17,24 @@
   <meta name="description" content="Bentofolio - Bootstrap Personal Portfolio Template">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
+  <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.svg">
   <!-- Place favicon.ico in the root directory -->
 
   <!-- CSS here -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/fontawsome/css/all.min.css">
-  <link rel="stylesheet" href="assets/fontawsome/css/fontawesome.min.css">
-  <link rel="stylesheet" href="assets/css/slick.css">
-  <link rel="stylesheet" href="assets/css/magnific-popup.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/fontawsome/css/all.min.css">
+  <link rel="stylesheet" href="../assets/fontawsome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="../assets/css/slick.css">
+  <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
 </head>
 
 <body>
   <div id="page-content">
     <!-- header part start -->
-    <header class="header-area">
+
+    <!-- <header class="header-area">
       <nav class="navbar">
         <div class="container">
           <div class="menu-container">
@@ -202,7 +210,9 @@
           </div>
         </div>
       </nav>
-    </header>
+    </header> -->
+   <?php include('../include/navbar.php'); ?>
+
     <!-- header part end -->
 
     <!-- main area part start -->
@@ -215,7 +225,7 @@
               <div class="card profile-card">
                 <div class="card-body">
                   <div class="image text-center">
-                    <img src="assets/img/images/profile.png" alt="profile">
+                    <img src="../assets/img/images/profile.png" alt="profile">
                   </div>
                   <div class="text">
                     <h3 class="card-title">Cris Rayaan 👋</h3>
@@ -281,7 +291,7 @@
                       <div class="col-md-3 col-sm-6 col-6">
                         <div class="services-item text-center">
                           <div class="image">
-                            <img src="assets/img/icons/ui-ux.svg" alt="ui-ux">
+                            <img src="../assets/img/icons/ui-ux.svg" alt="ui-ux">
                           </div>
                           <div class="text">
                             <h3 class="title">UI UX Design</h3>
@@ -291,7 +301,7 @@
                       <div class="col-md-3 col-sm-6 col-6">
                         <div class="services-item text-center">
                           <div class="image">
-                            <img src="assets/img/icons/app.svg" alt="app">
+                            <img src="../assets/img/icons/app.svg" alt="app">
                           </div>
                           <div class="text">
                             <h3 class="title">Mobile App</h3>
@@ -301,7 +311,7 @@
                       <div class="col-md-3 col-sm-6 col-6">
                         <div class="services-item text-center">
                           <div class="image">
-                            <img src="assets/img/icons/prd-design.svg" alt="prd-design">
+                            <img src="../assets/img/icons/prd-design.svg" alt="prd-design">
                           </div>
                           <div class="text">
                             <h3 class="title">Product Design</h3>
@@ -311,7 +321,7 @@
                       <div class="col-md-3 col-sm-6 col-6">
                         <div class="services-item text-center">
                           <div class="image">
-                            <img src="assets/img/icons/branding.svg" alt="branding">
+                            <img src="../assets/img/icons/branding.svg" alt="branding">
                           </div>
                           <div class="text">
                             <h3 class="title">Branding</h3>
@@ -321,7 +331,7 @@
                       <div class="col-md-3 col-sm-6 col-6">
                         <div class="services-item text-center">
                           <div class="image">
-                            <img src="assets/img/icons/camera.svg" alt="camera">
+                            <img src="../assets/img/icons/camera.svg" alt="camera">
                           </div>
                           <div class="text">
                             <h3 class="title">Photography</h3>
@@ -331,7 +341,7 @@
                       <div class="col-md-3 col-sm-6 col-6">
                         <div class="services-item text-center">
                           <div class="image">
-                            <img src="assets/img/icons/youtube.svg" alt="youtube">
+                            <img src="../assets/img/icons/youtube.svg" alt="youtube">
                           </div>
                           <div class="text">
                             <h3 class="title">Motion Design</h3>
@@ -341,7 +351,7 @@
                       <div class="col-md-3 col-sm-6 col-6">
                         <div class="services-item text-center">
                           <div class="image">
-                            <img src="assets/img/icons/web-development.svg" alt="web-development">
+                            <img src="../assets/img/icons/web-development.svg" alt="web-development">
                           </div>
                           <div class="text">
                             <h3 class="title">Web Development</h3>
@@ -351,7 +361,7 @@
                       <div class="col-md-3 col-sm-6 col-6">
                         <div class="services-item text-center">
                           <div class="image">
-                            <img src="assets/img/icons/view.svg" alt="view">
+                            <img src="../assets/img/icons/view.svg" alt="view">
                           </div>
                           <div class="text">
                             <h3 class="title">Visualization</h3>
@@ -360,7 +370,7 @@
                       </div>
                     </div>
                     <div class="block-image">
-                      <img src="assets/img/blog/blog-img-1.jpg" alt="blog-img-1" class="img-fluid w-100">
+                      <img src="../assets/img/blog/blog-img-1.jpg" alt="blog-img-1" class="img-fluid w-100">
                     </div>
                   </div>
                  
@@ -389,16 +399,16 @@
       <!-- background shape area start -->
       <div class="background-shapes">
         <div class="shape-1 common-shape">
-          <img src="assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
+          <img src="../assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
         </div>
         <div class="shape-2 common-shape">
-          <img src="assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
+          <img src="../assets/img/bg/banner-shape-1.png" alt="banner-shape-1">
         </div>
         <div class="threed-shape-1 move-with-cursor" data-value="1">
-          <img src="assets/img/bg/object-3d-1.png" alt="object-3d-1">
+          <img src="../assets/img/bg/object-3d-1.png" alt="object-3d-1">
         </div>
         <div class="threed-shape-2 move-with-cursor" data-value="1">
-          <img src="assets/img/bg/object-3d-2.png" alt="object-3d-2">
+          <img src="../assets/img/bg/object-3d-2.png" alt="object-3d-2">
         </div>
       </div>
       <!-- background shape area end -->
@@ -417,13 +427,13 @@
   </div>
 
   <!-- JS here -->
-  <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/ajax-form.js"></script>
-  <script src="assets/js/clipboard.min.js"></script>
-  <script src="assets/js/slick.min.js"></script>
-  <script src="assets/js/script.js"></script>
+  <script src="../assets/js/vendor/jquery-3.6.0.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="../assets/js/ajax-form.js"></script>
+  <script src="../assets/js/clipboard.min.js"></script>
+  <script src="../assets/js/slick.min.js"></script>
+  <script src="../assets/js/script.js"></script>
 </body>
 
 

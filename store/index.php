@@ -53,7 +53,7 @@
   </head>
   <body>
 
-    <audio controls src="./assets/audios/AUDIO-2024-12-12-22-40-15.aac"></audio>
+    <audio controls src="./../assets/audios/AUDIO-2024-12-12-22-40-15.aac"></audio>
     
   </body>
   </html>
