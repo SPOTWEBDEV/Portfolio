@@ -27,7 +27,7 @@ include 'includes/header.php';
                 <div class="relative">
                     <div class="w-full aspect-square max-w-md mx-auto lg:mx-0 rounded-3xl bg-gradient-to-br from-sky-500/10 to-blue-600/10 border border-sky-500/10 flex items-center justify-center p-8">
                         <div class="w-full h-full rounded-2xl overflow-hidden bg-gray-800 flex items-center justify-center">
-                            <img src="assets/images/logo.jpg" alt="Ezea Ugochukwu Micheal" class="w-48 h-48 object-contain">
+                            <img src="assets/images/me.jpg" alt="Ezea Ugochukwu Micheal" class="w-full h-fullobject-contain">
                         </div>
                     </div>
                     <!-- Award badge -->

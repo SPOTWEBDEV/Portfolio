@@ -6,8 +6,8 @@
 define('SITE_NAME', 'SPOTWEB TECH');
 define('SITE_OWNER', 'Ezea Ugochukwu Micheal');
 define('SITE_TAGLINE', 'Fullstack Web Developer & React Native Mobile Developer');
-define('SITE_EMAIL', 'info@spotwebtech.com');
-define('SITE_PHONE', '+234 800 000 0000');
+define('SITE_EMAIL', 'support@spotwebtech.com');
+define('SITE_PHONE', '+234 8160893720');
 define('SITE_ADDRESS', 'Enugu, Enugu State, Nigeria');
 define('SITE_URL', 'https://spotwebtech.com');
 define('BASE_URL', '');
@@ -193,10 +193,10 @@ $skills = [
     ['name' => 'PHP',            'level' => 92],
     ['name' => 'React / React Native', 'level' => 95],
     ['name' => 'JavaScript',    'level' => 93],
-    ['name' => 'TailwindCSS',   'level' => 90],
-    ['name' => 'Node.js',       'level' => 88],
-    ['name' => 'MySQL / MongoDB', 'level' => 85],
-    ['name' => 'Next.js',       'level' => 87],
+    ['name' => 'TailwindCSS',   'level' => 98],
+    ['name' => 'Node.js',       'level' => 95],
+    ['name' => 'MySQL / MongoDB', 'level' => 90],
+    ['name' => 'Next.js',       'level' => 90],
     ['name' => 'API Integration', 'level' => 91],
 ];
 
